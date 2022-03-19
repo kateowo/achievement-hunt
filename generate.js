@@ -158,12 +158,7 @@ const names = {
 let par = document.getElementById("a");
 let test = "";
 for (let i in names) {
-    console.log(`execute if score achievement internal matches ${i} run title @a subtitle {"text":"${names[i]}"}`);
     test = (`${test}<br>execute if score achievement internal matches ${i} run title @a subtitle {"text":"${names[i]}"}`);
-
-    let em = document.createElement('p');
-    em.innerHTML = (`execute if score achievement internal matches ${i} run title @a subtitle {"text":"${names[i]}"}`);
-    par.appendChild(em);
 }
 
 par.innerHTML = (`${test}`);
