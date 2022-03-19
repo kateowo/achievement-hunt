@@ -12,6 +12,16 @@ implement 'musical-chairs' system (elimination) as main mode (old one can be cla
 - [ ] track deaths (subtract points?)
 - [ ] reset timer upon main period and every achievement turn
 
+## elimination
+- [ ] check achievement is claimed
+- [ ] tag user with passed
+- [ ] pick new achievement
+- [x] count up players
+- [x] determine amount left
+- [x] eliminate last player (pretty much done)
+- [ ] remove tags (passed)
+- [ ] repeat cycle again
+
 ## achievements
 
 - [x] set-up list of achievements
