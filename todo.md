@@ -12,8 +12,9 @@ pre-game period as usual. upon start, players are placed into a 5 minute grace p
 
 ## achievements
 
-- [ ] set-up list of achievements
-- [ ] randomly select achievement
+- [x] set-up list of achievements
+- [ ] create armour stands for random
+- [x] randomly select achievement
 - [ ] track if player earned achievement (`@a[advancements={minecraft:adventure/adventuring_time=true}]`)
 
 ## random
