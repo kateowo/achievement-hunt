@@ -4,6 +4,11 @@
 # general timings
 scoreboard players set grace_period global 300
 
+# mode
+## 1 = 'musical-chairs', default
+## 0 = classic
+scoreboard players set mode global 1
+
 # extras
 scoreboard players set cut_clean global 1
 scoreboard players set speed_uhc global 1
