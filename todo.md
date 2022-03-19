@@ -25,6 +25,10 @@ pre-game period as usual. upon start, players are placed into a 5 minute grace p
 - [ ] make option between win_score and win_time
 - [ ] could possibly implement both? ^
 
+## general
+
+- [ ] clean-up and remove code from death-swap
+
 ## LTM
 
 - [ ] integrate setup flow
