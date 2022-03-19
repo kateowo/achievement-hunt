@@ -1,10 +1,11 @@
-# DS main period switchover
+# AH main period switchover
 
+
+# pick new achievement
+function achunt:pick/start
 
 # announce
-title @a title ["",{"text":"DEATH ","color":"red","bold":true},{"text":"SWAP","color":"yellow","bold":true}]
-title @a subtitle [{"text":"You will be swapped after "},{"score":{"name":"interval_60","objective":"internal"}},{"text":" minutes, make sure you're prepared."}]
-tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"red","bold":true},{"text":"] ","color":"dark_gray"},{"text":"The swap timer has now started, make sure you're ready.","color":"yellow"}]
+tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"red","bold":true},{"text":"] ","color":"dark_gray"},{"text":"The grace period has ended.","color":"yellow"}]
 # sfx
 execute as @a at @s run playsound entity.generic.explode player @s ~ ~ ~
 execute as @a at @s run playsound block.note_block.pling player @s ~ ~ ~
