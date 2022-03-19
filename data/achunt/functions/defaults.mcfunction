@@ -5,7 +5,7 @@
 scoreboard players set grace_period global 300
 
 # mode
-## 1 = 'musical-chairs', default
+## 1 = elimination (default)
 ## 0 = classic
 scoreboard players set mode global 1
 
