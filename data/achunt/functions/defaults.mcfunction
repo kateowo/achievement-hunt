@@ -3,15 +3,6 @@
 
 # general timings
 scoreboard players set grace_period global 300
-# picking
-scoreboard players set interval global 300
-
-# score
-scoreboard players set score_increase global 10
-# win conditions (score)
-scoreboard players set win_score global 200
-# ..and time
-scoreboard players set win_time global 1000
 
 # extras
 scoreboard players set cut_clean global 1
@@ -41,6 +32,17 @@ scoreboard players set grace_period global 300
 
 # period
 scoreboard players set period internal -1
+
+
+## CLASSIC MODE
+# picking
+scoreboard players set interval global 300
+# score
+scoreboard players set score_increase global 10
+# win conditions (score)
+scoreboard players set win_score global 200
+# ..and time
+scoreboard players set win_time global 1000
 
 
 scoreboard players set defaults internal 1
