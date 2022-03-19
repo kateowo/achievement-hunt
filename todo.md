@@ -20,6 +20,11 @@ pre-game period as usual. upon start, players are placed into a 5 minute grace p
 
 - [ ] create rng system (using armour stands tagged)
 
+## winning
+
+- [ ] make option between win_score and win_time
+- [ ] could possibly implement both? ^
+
 ## LTM
 
 - [ ] integrate setup flow
