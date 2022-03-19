@@ -20,7 +20,7 @@ pre-game period as usual. upon start, players are placed into a 5 minute grace p
 
 - [ ] create rng system (using armour stands tagged)
 
-
 ## LTM
 
 - [ ] integrate setup flow
+- [ ] make system customisable
