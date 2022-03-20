@@ -7,55 +7,12 @@ function achunt:pick/random
 # remove achievement
 function achunt:pick/clear
 
-# announce
-title @a title {"text":"NEW ACHIEVEMENT","color":"green","bold":true}
 # sfx
 execute as @a at @s run playsound minecraft:block.note_block.pling player @s ~ ~ ~
+execute as @a at @s run playsound minecraft:entity.arrow.hit_player player @s ~ ~ ~
 
 ## generate.html
 ## typing this by hand would be awful:
-
-# subtitle, contains name
-execute if score achievement internal matches 0 run title @a subtitle {"text":"Suit Up"}
-execute if score achievement internal matches 1 run title @a subtitle {"text":"Hot Stuff"}
-execute if score achievement internal matches 2 run title @a subtitle {"text":"Not Today, Thank You"}
-execute if score achievement internal matches 3 run title @a subtitle {"text":"Ice Bucket Challenge"}
-execute if score achievement internal matches 4 run title @a subtitle {"text":"Diamonds!"}
-execute if score achievement internal matches 5 run title @a subtitle {"text":"We Need to Go Deeper"}
-execute if score achievement internal matches 6 run title @a subtitle {"text":"Cover Me With Diamonds"}
-execute if score achievement internal matches 7 run title @a subtitle {"text":"Enchanter"}
-execute if score achievement internal matches 8 run title @a subtitle {"text":"Zombie Doctor"}
-execute if score achievement internal matches 9 run title @a subtitle {"text":"Return to Sender"}
-execute if score achievement internal matches 10 run title @a subtitle {"text":"Those Were The Days"}
-execute if score achievement internal matches 11 run title @a subtitle {"text":"A Terrible Fortress"}
-execute if score achievement internal matches 12 run title @a subtitle {"text":"Who is Cutting Onions?"}
-execute if score achievement internal matches 13 run title @a subtitle {"text":"Oh Shiny"}
-execute if score achievement internal matches 14 run title @a subtitle {"text":"This Boat Has Legs"}
-execute if score achievement internal matches 15 run title @a subtitle {"text":"War Pigs"}
-execute if score achievement internal matches 16 run title @a subtitle {"text":"Country Lode, Take Me Home"}
-execute if score achievement internal matches 17 run title @a subtitle {"text":"Spooky Scary Skeleton"}
-execute if score achievement internal matches 18 run title @a subtitle {"text":"Into Fire"}
-execute if score achievement internal matches 19 run title @a subtitle {"text":"Local Brewery"}
-execute if score achievement internal matches 20 run title @a subtitle {"text":"Is It a Bird?"}
-execute if score achievement internal matches 21 run title @a subtitle {"text":"Monster Hunter"}
-execute if score achievement internal matches 22 run title @a subtitle {"text":"What a Deal!"}
-execute if score achievement internal matches 23 run title @a subtitle {"text":"Sticky Situation"}
-execute if score achievement internal matches 24 run title @a subtitle {"text":"Ol' Betsy"}
-execute if score achievement internal matches 25 run title @a subtitle {"text":"Sweet Dreams"}
-execute if score achievement internal matches 26 run title @a subtitle {"text":"A Throwaway Joke"}
-execute if score achievement internal matches 27 run title @a subtitle {"text":"Take Aim"}
-execute if score achievement internal matches 28 run title @a subtitle {"text":"Postmortal"}
-execute if score achievement internal matches 29 run title @a subtitle {"text":"Hired Help"}
-execute if score achievement internal matches 30 run title @a subtitle {"text":"Who's the Pillager Now?"}
-execute if score achievement internal matches 31 run title @a subtitle {"text":"Light as a Rabbit"}
-execute if score achievement internal matches 32 run title @a subtitle {"text":"Bee Our Guest"}
-execute if score achievement internal matches 33 run title @a subtitle {"text":"Whatever Floats Your Goat!"}
-execute if score achievement internal matches 34 run title @a subtitle {"text":"Glow and Behold!"}
-execute if score achievement internal matches 35 run title @a subtitle {"text":"Fishy Business"}
-execute if score achievement internal matches 36 run title @a subtitle {"text":"A Seedy Place"}
-execute if score achievement internal matches 37 run title @a subtitle {"text":"Wax On"}
-execute if score achievement internal matches 38 run title @a subtitle {"text":"Best Friends Forever"}
-execute if score achievement internal matches 39 run title @a subtitle {"text":"The Cutest Predator"}
 
 # tellraw, contains name+description
 execute if score achievement internal matches 0 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Suit Up ","color":"green"},{"text":"Protect yourself with a piece of iron armor","color":"gray"}]

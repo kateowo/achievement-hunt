@@ -11,9 +11,9 @@
 
     <title>Achievement generate</title>
 </head>
-<br><label class="over">achunt:pick/go • used for announce subtitle</label>
+<!--<br><label class="over">achunt:pick/go • used for announce subtitle</label>
 <div id="a"></div>
-<hr>
+<hr>-->
 <br><label class="over">achunt:pick/go • used for tellraw</label>
 <div id="b"></div>
 <hr>
@@ -33,11 +33,11 @@
         let data = response;
 
         // generate first part
-        let text = "";
-        for (let i in data.achievements) {
-            text = (`${text}<br>execute if score achievement internal matches ${i} run title @a subtitle {"text":"${data.achievements[i].name}"}`);
-        }
-        document.getElementById("a").innerHTML = (`${text}`);
+        //let text = "";
+        //for (let i in data.achievements) {
+        //    text = (`${text}<br>execute if score achievement internal matches ${i} run title @a subtitle {"text":"${data.achievements[i].name}"}`);
+        //}
+        //document.getElementById("a").innerHTML = (`${text}`);
 
         // generate second part
         let text2 = "";
