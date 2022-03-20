@@ -5,6 +5,7 @@
 scoreboard objectives add global dummy
 scoreboard objectives add internal dummy
 scoreboard objectives add last_login dummy
+scoreboard objectives add score dummy
 
 # bossbar
 bossbar add achunt:main ""
