@@ -1,4 +1,4 @@
-# DS start
+# AH start
 # (if requirements met)
 
 
@@ -18,17 +18,15 @@ tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bol
 execute as @a at @s run playsound entity.generic.explode player @s ~ ~ ~
 execute as @a at @s run playsound block.note_block.pling player @s ~ ~ ~
 
+# track score
+scoreboard players set @a score 0
+
 # effects
 effect give @a resistance 9999 255 true
 
 # world
 worldborder set 5000 5
 gamemode survival @a[gamemode=!spectator]
-# health boost
-execute if score health_boost global matches 1.. run effect give @a[gamemode=!spectator] health_boost 9999 2 true
 
 # set period
 scoreboard players set period internal 0
-
-# logging
-execute if score logging internal matches 1.. run tellraw @a {"text":"Logging enabled via internal, log messages will appear like this","color":"yellow"}

@@ -7,6 +7,9 @@ execute if score period internal matches 0..1 run function achunt:time
 # elimination
 #execute if score mode global matches 1 run function achunt:pick/elimination
 
+# achievement checks
+execute if score period internal matches 1 run function achunt:pick/checks
+
 # options
 execute if score cut_clean global matches 1.. run function achunt:extras/cut_clean
 execute if score speed_uhc global matches 1.. run function achunt:extras/speed_uhc
