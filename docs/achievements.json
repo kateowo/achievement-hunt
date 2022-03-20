@@ -85,7 +85,7 @@
             "icon_type": "block",
             "name": "Sweet Dreams",
             "description": "Sleep in a bed to change your respawn point",
-            "namespace": "adventure/sleep_in_a_bed"
+            "namespace": "adventure/sleep_in_bed"
         },
         {
             "icon": "carved_pumpkin",
