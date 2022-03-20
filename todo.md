@@ -9,19 +9,8 @@ implement 'musical-chairs' system (elimination) as main mode (old one can be cla
 - [x] get core framework up and running
 - [x] ensure timer is running
 - [x] create grace period
-- [ ] track deaths (subtract points?)
+- [x] track deaths
 - [x] reset timer upon main period and every achievement turn
-
-## elimination
-deprecated (for now?)
-- [ ] check achievement is claimed
-- [ ] tag user with passed
-- [ ] pick new achievement
-- [x] count up players
-- [x] determine amount left
-- [x] eliminate last player (pretty much done)
-- [ ] remove tags (passed)
-- [ ] repeat cycle again
 
 ## achievements
 
@@ -37,9 +26,6 @@ deprecated (for now?)
 ## winning
 
 - [x] implement win_score
-deprecated (for now?)
-- [ ] make option between win_score and win_time
-- [ ] could possibly implement both? ^
 
 ## general
 
@@ -49,3 +35,26 @@ deprecated (for now?)
 
 - [ ] integrate setup flow
 - [x] make system customisable
+
+# DEPRECATED CORNER
+
+## elimination
+deprecated (for now?)
+- [ ] check achievement is claimed
+- [ ] tag user with passed
+- [ ] pick new achievement
+- [x] count up players
+- [x] determine amount left
+- [x] eliminate last player (pretty much done)
+- [ ] remove tags (passed)
+- [ ] repeat cycle again
+
+## unsure
+
+- [ ] subtract points on death
+unsure if it would actually fit - would allow players to stop you from winning though.
+can always make it an option if else
+- [ ] implement elimination mode optionally
+main focus diverted back to the default mode, may revisit at some point
+- [ ] implement win_time
+prefer the system of win_score for now, may be an option at some point
