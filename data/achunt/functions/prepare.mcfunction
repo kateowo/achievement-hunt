@@ -12,10 +12,7 @@ scoreboard objectives setdisplay sidebar score
 
 # bossbar
 bossbar add achunt:main ""
-bossbar set achunt:main color red
-# grace period
-bossbar add achunt:grace ""
-bossbar set achunt:grace color red
+bossbar set achunt:main color green
 
 # death
 scoreboard objectives add death deathCount
