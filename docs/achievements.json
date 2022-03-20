@@ -182,7 +182,7 @@
             "namespace": "nether/brew_potion"
         },
         {
-            "icon": "lodestone_",
+            "icon": "lodestone",
             "name": "Country Lode, Take Me Home",
             "description": "Use a compass on a Lodestone",
             "namespace": "nether/use_lodestone"
