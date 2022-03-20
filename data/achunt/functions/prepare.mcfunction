@@ -10,6 +10,9 @@ scoreboard objectives add last_login dummy
 scoreboard objectives add score dummy ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"]","color":"dark_gray"}]
 scoreboard objectives setdisplay sidebar score
 
+# world
+forceload add 0 0
+
 # bossbar
 bossbar add achunt:main ""
 bossbar set achunt:main color green
