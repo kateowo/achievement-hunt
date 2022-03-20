@@ -13,7 +13,7 @@
 </head>
 <body class="dark">
     <section class="left header sep no-align" style="bottom: 0;">
-        <h4>Full list</h4>
+        <h4>Full list<span class="text-14" id="full" style="font-weight: 500; color: var(--text-main); margin-left: 10px;"></span></h4>
         <div class="supports" id="hook"></div>
     </section>
 </body>
@@ -23,6 +23,7 @@
 
     $.get( `achievements.json`, function( response ) {
         let data = response;
+        document.getElementById("full").innerHTML = ` ${data.achievements.length} items`;
         for (let i in data.achievements) {
             if (data.achievements[i].description == "") { continue };
             let em = document.createElement('span');

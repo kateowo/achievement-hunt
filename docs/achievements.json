@@ -7,7 +7,7 @@
             "namespace": "story/lava_bucket"
         },
         {
-            "icon": "banner",
+            "icon": "shield",
             "name": "Not Today, Thank You",
             "description": "Block a projectile using your shield.",
             "namespace": "story/deflect_arrow"
@@ -73,6 +73,32 @@
             "name": "Take Aim",
             "description": "Shoot something with an arrow",
             "namespace": "adventure/shoot_arrow"
+        },
+        {
+            "icon": "spyglass",
+            "name": "Is It a Bird?",
+            "description": "Look at a parrot through a spyglass",
+            "namespace": "adventure/spyglass_at_parrot"
+        },
+        {
+            "icon": "red_wool",
+            "icon_type": "block",
+            "name": "Sweet Dreams",
+            "description": "Sleep in a bed to change your respawn point",
+            "namespace": "adventure/sleep_in_a_bed"
+        },
+        {
+            "icon": "carved_pumpkin",
+            "icon_type": "block",
+            "name": "Hired Help",
+            "description": "Summon an Iron Golem to help defend a village",
+            "namespace": "adventure/summon_iron_golem"
+        },
+        {
+            "icon": "totem_of_undying",
+            "name": "Postmortal",
+            "description": "Use a Totem of Undying to cheat death",
+            "namespace": "adventure/totem_of_undying"
         },
         {
             "icon": "wheat",
@@ -149,6 +175,18 @@
             "namespace": "nether/loot_bastion"
         },
         {
+            "icon": "blaze_rod",
+            "name": "Into Fire",
+            "description": "Relieve a Blaze of its rod",
+            "namespace": "nether/obtain_blaze_rod"
+        },
+        {
+            "icon": "potion",
+            "name": "Local Brewery",
+            "description": "Brew a potion",
+            "namespace": "nether/brew_potion"
+        },
+        {
             "icon": "lodestone_side",
             "icon_type": "block",
             "name": "Country Lode, Take Me Home",
@@ -168,438 +206,6 @@
             "name": "Those Were The Days",
             "description": "Enter a Bastion Remnant",
             "namespace": "nether/find_bastion"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
-        },
-        {
-            "icon": "",
-            "name": "Hot Stuff",
-            "description": "",
-            "namespace": "story/lava_bucket"
         }
     ]
 }
