@@ -36,6 +36,8 @@ deprecated (for now?)
 
 ## winning
 
+- [x] implement win_score
+deprecated (for now?)
 - [ ] make option between win_score and win_time
 - [ ] could possibly implement both? ^
 
@@ -46,4 +48,4 @@ deprecated (for now?)
 ## LTM
 
 - [ ] integrate setup flow
-- [ ] make system customisable
+- [x] make system customisable
