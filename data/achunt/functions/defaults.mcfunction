@@ -40,7 +40,7 @@ scoreboard players set interval global 480
 # score
 scoreboard players set score_increase global 10
 # win conditions (score)
-scoreboard players set win_score global 200
+scoreboard players set win_score global 250
 
 
 scoreboard players set defaults internal 1
