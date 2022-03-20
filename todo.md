@@ -52,9 +52,14 @@ deprecated (for now?)
 ## unsure
 
 - [ ] subtract points on death
+
 unsure if it would actually fit - would allow players to stop you from winning though.
 can always make it an option if else
+
 - [ ] implement elimination mode optionally
+
 main focus diverted back to the default mode, may revisit at some point
+
 - [ ] implement win_time
+
 prefer the system of win_score for now, may be an option at some point
