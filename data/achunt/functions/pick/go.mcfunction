@@ -6,156 +6,78 @@ function achunt:pick/random
 
 # announce
 title @a title {"text":"NEW ACHIEVEMENT","color":"green","bold":true}
+# sfx
+execute as @a at @s run playsound minecraft:block.note_block.pling player @s ~ ~ ~
+
+## generate.html
+## typing this by hand would be awful:
 
 # subtitle, contains name
-execute if score achievement internal matches 0 run title @a subtitle {"text":"Sample Achievement 0"}
-execute if score achievement internal matches 1 run title @a subtitle {"text":"Sample Achievement 1"}
-execute if score achievement internal matches 2 run title @a subtitle {"text":"Sample Achievement 2"}
-execute if score achievement internal matches 3 run title @a subtitle {"text":"Sample Achievement 3"}
-execute if score achievement internal matches 4 run title @a subtitle {"text":"Sample Achievement 4"}
-execute if score achievement internal matches 5 run title @a subtitle {"text":"Sample Achievement 5"}
-execute if score achievement internal matches 6 run title @a subtitle {"text":"Sample Achievement 6"}
-execute if score achievement internal matches 7 run title @a subtitle {"text":"Sample Achievement 7"}
-execute if score achievement internal matches 8 run title @a subtitle {"text":"Sample Achievement 8"}
-execute if score achievement internal matches 9 run title @a subtitle {"text":"Sample Achievement 9"}
-execute if score achievement internal matches 10 run title @a subtitle {"text":"Sample Achievement 10"}
-execute if score achievement internal matches 11 run title @a subtitle {"text":"Sample Achievement 11"}
-execute if score achievement internal matches 12 run title @a subtitle {"text":"Sample Achievement 12"}
-execute if score achievement internal matches 13 run title @a subtitle {"text":"Sample Achievement 13"}
-execute if score achievement internal matches 14 run title @a subtitle {"text":"Sample Achievement 14"}
-execute if score achievement internal matches 15 run title @a subtitle {"text":"Sample Achievement 15"}
-execute if score achievement internal matches 16 run title @a subtitle {"text":"Sample Achievement 16"}
-execute if score achievement internal matches 17 run title @a subtitle {"text":"Sample Achievement 17"}
-execute if score achievement internal matches 18 run title @a subtitle {"text":"Sample Achievement 18"}
-execute if score achievement internal matches 19 run title @a subtitle {"text":"Sample Achievement 19"}
-execute if score achievement internal matches 20 run title @a subtitle {"text":"Sample Achievement 20"}
-execute if score achievement internal matches 21 run title @a subtitle {"text":"Sample Achievement 21"}
-execute if score achievement internal matches 22 run title @a subtitle {"text":"Sample Achievement 22"}
-execute if score achievement internal matches 23 run title @a subtitle {"text":"Sample Achievement 23"}
-execute if score achievement internal matches 24 run title @a subtitle {"text":"Sample Achievement 24"}
-execute if score achievement internal matches 25 run title @a subtitle {"text":"Sample Achievement 25"}
-execute if score achievement internal matches 26 run title @a subtitle {"text":"Sample Achievement 26"}
-execute if score achievement internal matches 27 run title @a subtitle {"text":"Sample Achievement 27"}
-execute if score achievement internal matches 28 run title @a subtitle {"text":"Sample Achievement 28"}
-execute if score achievement internal matches 29 run title @a subtitle {"text":"Sample Achievement 29"}
-execute if score achievement internal matches 30 run title @a subtitle {"text":"Sample Achievement 30"}
-execute if score achievement internal matches 31 run title @a subtitle {"text":"Sample Achievement 31"}
-execute if score achievement internal matches 32 run title @a subtitle {"text":"Sample Achievement 32"}
-execute if score achievement internal matches 33 run title @a subtitle {"text":"Sample Achievement 33"}
-execute if score achievement internal matches 34 run title @a subtitle {"text":"Sample Achievement 34"}
-execute if score achievement internal matches 35 run title @a subtitle {"text":"Sample Achievement 35"}
-execute if score achievement internal matches 36 run title @a subtitle {"text":"Sample Achievement 36"}
-execute if score achievement internal matches 37 run title @a subtitle {"text":"Sample Achievement 37"}
-execute if score achievement internal matches 38 run title @a subtitle {"text":"Sample Achievement 38"}
-execute if score achievement internal matches 39 run title @a subtitle {"text":"Sample Achievement 39"}
-execute if score achievement internal matches 40 run title @a subtitle {"text":"Sample Achievement 40"}
-execute if score achievement internal matches 41 run title @a subtitle {"text":"Sample Achievement 41"}
-execute if score achievement internal matches 42 run title @a subtitle {"text":"Sample Achievement 42"}
-execute if score achievement internal matches 43 run title @a subtitle {"text":"Sample Achievement 43"}
-execute if score achievement internal matches 44 run title @a subtitle {"text":"Sample Achievement 44"}
-execute if score achievement internal matches 45 run title @a subtitle {"text":"Sample Achievement 45"}
-execute if score achievement internal matches 46 run title @a subtitle {"text":"Sample Achievement 46"}
-execute if score achievement internal matches 47 run title @a subtitle {"text":"Sample Achievement 47"}
-execute if score achievement internal matches 48 run title @a subtitle {"text":"Sample Achievement 48"}
-execute if score achievement internal matches 49 run title @a subtitle {"text":"Sample Achievement 49"}
-execute if score achievement internal matches 50 run title @a subtitle {"text":"Sample Achievement 50"}
-execute if score achievement internal matches 51 run title @a subtitle {"text":"Sample Achievement 51"}
-execute if score achievement internal matches 52 run title @a subtitle {"text":"Sample Achievement 52"}
-execute if score achievement internal matches 53 run title @a subtitle {"text":"Sample Achievement 53"}
-execute if score achievement internal matches 54 run title @a subtitle {"text":"Sample Achievement 54"}
-execute if score achievement internal matches 55 run title @a subtitle {"text":"Sample Achievement 55"}
-execute if score achievement internal matches 56 run title @a subtitle {"text":"Sample Achievement 56"}
-execute if score achievement internal matches 57 run title @a subtitle {"text":"Sample Achievement 57"}
-execute if score achievement internal matches 58 run title @a subtitle {"text":"Sample Achievement 58"}
-execute if score achievement internal matches 59 run title @a subtitle {"text":"Sample Achievement 59"}
-execute if score achievement internal matches 60 run title @a subtitle {"text":"Sample Achievement 60"}
-execute if score achievement internal matches 61 run title @a subtitle {"text":"Sample Achievement 61"}
-execute if score achievement internal matches 62 run title @a subtitle {"text":"Sample Achievement 62"}
-execute if score achievement internal matches 63 run title @a subtitle {"text":"Sample Achievement 63"}
-execute if score achievement internal matches 64 run title @a subtitle {"text":"Sample Achievement 64"}
-execute if score achievement internal matches 65 run title @a subtitle {"text":"Sample Achievement 65"}
-execute if score achievement internal matches 66 run title @a subtitle {"text":"Sample Achievement 66"}
-execute if score achievement internal matches 67 run title @a subtitle {"text":"Sample Achievement 67"}
-execute if score achievement internal matches 68 run title @a subtitle {"text":"Sample Achievement 68"}
-execute if score achievement internal matches 69 run title @a subtitle {"text":"Sample Achievement 69"}
-execute if score achievement internal matches 70 run title @a subtitle {"text":"Sample Achievement 70"}
-execute if score achievement internal matches 71 run title @a subtitle {"text":"Sample Achievement 71"}
-execute if score achievement internal matches 72 run title @a subtitle {"text":"Sample Achievement 72"}
-execute if score achievement internal matches 73 run title @a subtitle {"text":"Sample Achievement 73"}
-execute if score achievement internal matches 74 run title @a subtitle {"text":"Sample Achievement 74"}
-execute if score achievement internal matches 75 run title @a subtitle {"text":"Sample Achievement 75"}
-execute if score achievement internal matches 76 run title @a subtitle {"text":"Sample Achievement 76"}
-execute if score achievement internal matches 77 run title @a subtitle {"text":"Sample Achievement 77"}
-execute if score achievement internal matches 78 run title @a subtitle {"text":"Sample Achievement 78"}
-execute if score achievement internal matches 79 run title @a subtitle {"text":"Sample Achievement 79"}
-execute if score achievement internal matches 80 run title @a subtitle {"text":"Sample Achievement 80"}
-execute if score achievement internal matches 81 run title @a subtitle {"text":"Sample Achievement 81"}
-execute if score achievement internal matches 82 run title @a subtitle {"text":"Sample Achievement 82"}
-execute if score achievement internal matches 83 run title @a subtitle {"text":"Sample Achievement 83"}
-execute if score achievement internal matches 84 run title @a subtitle {"text":"Sample Achievement 84"}
-execute if score achievement internal matches 85 run title @a subtitle {"text":"Sample Achievement 85"}
-execute if score achievement internal matches 86 run title @a subtitle {"text":"Sample Achievement 86"}
-execute if score achievement internal matches 87 run title @a subtitle {"text":"Sample Achievement 87"}
-execute if score achievement internal matches 88 run title @a subtitle {"text":"Sample Achievement 88"}
-execute if score achievement internal matches 89 run title @a subtitle {"text":"Sample Achievement 89"}
-execute if score achievement internal matches 90 run title @a subtitle {"text":"Sample Achievement 90"}
-execute if score achievement internal matches 91 run title @a subtitle {"text":"Sample Achievement 91"}
-execute if score achievement internal matches 92 run title @a subtitle {"text":"Sample Achievement 92"}
-execute if score achievement internal matches 93 run title @a subtitle {"text":"Sample Achievement 93"}
-execute if score achievement internal matches 94 run title @a subtitle {"text":"Sample Achievement 94"}
-execute if score achievement internal matches 95 run title @a subtitle {"text":"Sample Achievement 95"}
-execute if score achievement internal matches 96 run title @a subtitle {"text":"Sample Achievement 96"}
-execute if score achievement internal matches 97 run title @a subtitle {"text":"Sample Achievement 97"}
-execute if score achievement internal matches 98 run title @a subtitle {"text":"Sample Achievement 98"}
-execute if score achievement internal matches 99 run title @a subtitle {"text":"Sample Achievement 99"}
-execute if score achievement internal matches 100 run title @a subtitle {"text":"Sample Achievement 100"}
-execute if score achievement internal matches 101 run title @a subtitle {"text":"Sample Achievement 101"}
-execute if score achievement internal matches 102 run title @a subtitle {"text":"Sample Achievement 102"}
-execute if score achievement internal matches 103 run title @a subtitle {"text":"Sample Achievement 103"}
-execute if score achievement internal matches 104 run title @a subtitle {"text":"Sample Achievement 104"}
-execute if score achievement internal matches 105 run title @a subtitle {"text":"Sample Achievement 105"}
-execute if score achievement internal matches 106 run title @a subtitle {"text":"Sample Achievement 106"}
-execute if score achievement internal matches 107 run title @a subtitle {"text":"Sample Achievement 107"}
-execute if score achievement internal matches 108 run title @a subtitle {"text":"Sample Achievement 108"}
-execute if score achievement internal matches 109 run title @a subtitle {"text":"Sample Achievement 109"}
-execute if score achievement internal matches 110 run title @a subtitle {"text":"Sample Achievement 110"}
-execute if score achievement internal matches 111 run title @a subtitle {"text":"Sample Achievement 111"}
-execute if score achievement internal matches 112 run title @a subtitle {"text":"Sample Achievement 112"}
-execute if score achievement internal matches 113 run title @a subtitle {"text":"Sample Achievement 113"}
-execute if score achievement internal matches 114 run title @a subtitle {"text":"Sample Achievement 114"}
-execute if score achievement internal matches 115 run title @a subtitle {"text":"Sample Achievement 115"}
-execute if score achievement internal matches 116 run title @a subtitle {"text":"Sample Achievement 116"}
-execute if score achievement internal matches 117 run title @a subtitle {"text":"Sample Achievement 117"}
-execute if score achievement internal matches 118 run title @a subtitle {"text":"Sample Achievement 118"}
-execute if score achievement internal matches 119 run title @a subtitle {"text":"Sample Achievement 119"}
-execute if score achievement internal matches 120 run title @a subtitle {"text":"Sample Achievement 120"}
-execute if score achievement internal matches 121 run title @a subtitle {"text":"Sample Achievement 121"}
-execute if score achievement internal matches 122 run title @a subtitle {"text":"Sample Achievement 122"}
-execute if score achievement internal matches 123 run title @a subtitle {"text":"Sample Achievement 123"}
-execute if score achievement internal matches 124 run title @a subtitle {"text":"Sample Achievement 124"}
-execute if score achievement internal matches 125 run title @a subtitle {"text":"Sample Achievement 125"}
-execute if score achievement internal matches 126 run title @a subtitle {"text":"Sample Achievement 126"}
-execute if score achievement internal matches 127 run title @a subtitle {"text":"Sample Achievement 127"}
-execute if score achievement internal matches 128 run title @a subtitle {"text":"Sample Achievement 128"}
-execute if score achievement internal matches 129 run title @a subtitle {"text":"Sample Achievement 129"}
-execute if score achievement internal matches 130 run title @a subtitle {"text":"Sample Achievement 130"}
-execute if score achievement internal matches 131 run title @a subtitle {"text":"Sample Achievement 131"}
-execute if score achievement internal matches 132 run title @a subtitle {"text":"Sample Achievement 132"}
-execute if score achievement internal matches 133 run title @a subtitle {"text":"Sample Achievement 133"}
-execute if score achievement internal matches 134 run title @a subtitle {"text":"Sample Achievement 134"}
-execute if score achievement internal matches 135 run title @a subtitle {"text":"Sample Achievement 135"}
-execute if score achievement internal matches 136 run title @a subtitle {"text":"Sample Achievement 136"}
-execute if score achievement internal matches 137 run title @a subtitle {"text":"Sample Achievement 137"}
-execute if score achievement internal matches 138 run title @a subtitle {"text":"Sample Achievement 138"}
-execute if score achievement internal matches 139 run title @a subtitle {"text":"Sample Achievement 139"}
-execute if score achievement internal matches 140 run title @a subtitle {"text":"Sample Achievement 140"}
-execute if score achievement internal matches 141 run title @a subtitle {"text":"Sample Achievement 141"}
-execute if score achievement internal matches 142 run title @a subtitle {"text":"Sample Achievement 142"}
-execute if score achievement internal matches 143 run title @a subtitle {"text":"Sample Achievement 143"}
-execute if score achievement internal matches 144 run title @a subtitle {"text":"Sample Achievement 144"}
-execute if score achievement internal matches 145 run title @a subtitle {"text":"Sample Achievement 145"}
-execute if score achievement internal matches 146 run title @a subtitle {"text":"Sample Achievement 146"}
-execute if score achievement internal matches 147 run title @a subtitle {"text":"Sample Achievement 147"}
-execute if score achievement internal matches 148 run title @a subtitle {"text":"Sample Achievement 148"}
-execute if score achievement internal matches 149 run title @a subtitle {"text":"Sample Achievement 149"}
-execute if score achievement internal matches 150 run title @a subtitle {"text":"Sample Achievement 150"}
+execute if score achievement internal matches 0 run title @a subtitle {"text":"Hot Stuff"}
+execute if score achievement internal matches 1 run title @a subtitle {"text":"Not Today, Thank You"}
+execute if score achievement internal matches 2 run title @a subtitle {"text":"Diamonds!"}
+execute if score achievement internal matches 3 run title @a subtitle {"text":"Ice Bucket Challenge"}
+execute if score achievement internal matches 4 run title @a subtitle {"text":"Cover Me With Diamonds"}
+execute if score achievement internal matches 5 run title @a subtitle {"text":"Enchanter"}
+execute if score achievement internal matches 6 run title @a subtitle {"text":"What a Deal!"}
+execute if score achievement internal matches 7 run title @a subtitle {"text":"Ol' Betsy"}
+execute if score achievement internal matches 8 run title @a subtitle {"text":"Sticky Situation"}
+execute if score achievement internal matches 9 run title @a subtitle {"text":"Caves & Cliffs"}
+execute if score achievement internal matches 10 run title @a subtitle {"text":"A Throwaway Joke"}
+execute if score achievement internal matches 11 run title @a subtitle {"text":"Take Aim"}
+execute if score achievement internal matches 12 run title @a subtitle {"text":"Is It a Bird?"}
+execute if score achievement internal matches 13 run title @a subtitle {"text":"Sweet Dreams"}
+execute if score achievement internal matches 14 run title @a subtitle {"text":"Hired Help"}
+execute if score achievement internal matches 15 run title @a subtitle {"text":"Postmortal"}
+execute if score achievement internal matches 16 run title @a subtitle {"text":"A Seedy Place"}
+execute if score achievement internal matches 17 run title @a subtitle {"text":"Bee Our Guest"}
+execute if score achievement internal matches 18 run title @a subtitle {"text":"Whatever Floats Your Goat!"}
+execute if score achievement internal matches 19 run title @a subtitle {"text":"Best Friends Forever"}
+execute if score achievement internal matches 20 run title @a subtitle {"text":"Glow and Behold!"}
+execute if score achievement internal matches 21 run title @a subtitle {"text":"Fishy Business"}
+execute if score achievement internal matches 22 run title @a subtitle {"text":"The Cutest Predator"}
+execute if score achievement internal matches 23 run title @a subtitle {"text":"Return to Sender"}
+execute if score achievement internal matches 24 run title @a subtitle {"text":"Oh Shiny"}
+execute if score achievement internal matches 25 run title @a subtitle {"text":"This Boat Has Legs"}
+execute if score achievement internal matches 26 run title @a subtitle {"text":"Who is Cutting Onions?"}
+execute if score achievement internal matches 27 run title @a subtitle {"text":"War Pigs"}
+execute if score achievement internal matches 28 run title @a subtitle {"text":"Into Fire"}
+execute if score achievement internal matches 29 run title @a subtitle {"text":"Local Brewery"}
+execute if score achievement internal matches 30 run title @a subtitle {"text":"Country Lode, Take Me Home"}
+execute if score achievement internal matches 31 run title @a subtitle {"text":"A Terrible Fortress"}
+execute if score achievement internal matches 32 run title @a subtitle {"text":"Those Were The Days"}
+
+# tellraw, contains name+description
+execute if score achievement internal matches 0 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Hot Stuff ","color":"green"},{"text":"Fill a bucket with lava","color":"gray"}]
+execute if score achievement internal matches 1 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Not Today, Thank You ","color":"green"},{"text":"Block a projectile using your shield.","color":"gray"}]
+execute if score achievement internal matches 2 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Diamonds! ","color":"green"},{"text":"Acquire diamonds","color":"gray"}]
+execute if score achievement internal matches 3 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Ice Bucket Challenge ","color":"green"},{"text":"Obtain a block of obsidian","color":"gray"}]
+execute if score achievement internal matches 4 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Cover Me With Diamonds ","color":"green"},{"text":"Diamond armor saves lives","color":"gray"}]
+execute if score achievement internal matches 5 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Enchanter ","color":"green"},{"text":"Enchanty an item at an Enchantment Table","color":"gray"}]
+execute if score achievement internal matches 6 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"What a Deal! ","color":"green"},{"text":"Successfully trade with a villager","color":"gray"}]
+execute if score achievement internal matches 7 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Ol' Betsy ","color":"green"},{"text":"Shoot a crossbow","color":"gray"}]
+execute if score achievement internal matches 8 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Sticky Situation ","color":"green"},{"text":"Jump into a Honey Block to break your fall","color":"gray"}]
+execute if score achievement internal matches 9 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Caves & Cliffs ","color":"green"},{"text":"Free fall from the top of the world (build limit) to the bottom of the world and survive","color":"gray"}]
+execute if score achievement internal matches 10 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"A Throwaway Joke ","color":"green"},{"text":"Throw a trident at something. Note: Throwing away your only weapon is not a good idea.","color":"gray"}]
+execute if score achievement internal matches 11 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Take Aim ","color":"green"},{"text":"Shoot something with an arrow","color":"gray"}]
+execute if score achievement internal matches 12 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Is It a Bird? ","color":"green"},{"text":"Look at a parrot through a spyglass","color":"gray"}]
+execute if score achievement internal matches 13 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Sweet Dreams ","color":"green"},{"text":"Sleep in a bed to change your respawn point","color":"gray"}]
+execute if score achievement internal matches 14 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Hired Help ","color":"green"},{"text":"Summon an Iron Golem to help defend a village","color":"gray"}]
+execute if score achievement internal matches 15 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Postmortal ","color":"green"},{"text":"Use a Totem of Undying to cheat death","color":"gray"}]
+execute if score achievement internal matches 16 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"A Seedy Place ","color":"green"},{"text":"Plant a seed and watch it grow","color":"gray"}]
+execute if score achievement internal matches 17 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Bee Our Guest ","color":"green"},{"text":"Use a Campfire to collect Honey from a Beehive using a Bottle without aggravating the bees","color":"gray"}]
+execute if score achievement internal matches 18 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Whatever Floats Your Goat! ","color":"green"},{"text":"Get in a Boat and float with a Goat","color":"gray"}]
+execute if score achievement internal matches 19 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Best Friends Forever ","color":"green"},{"text":"Tame an animal","color":"gray"}]
+execute if score achievement internal matches 20 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Glow and Behold! ","color":"green"},{"text":"Make the text of a sign glow","color":"gray"}]
+execute if score achievement internal matches 21 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Fishy Business ","color":"green"},{"text":"Catch a fish","color":"gray"}]
+execute if score achievement internal matches 22 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"The Cutest Predator ","color":"green"},{"text":"Catch an axolotl in a bucket","color":"gray"}]
+execute if score achievement internal matches 23 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Return to Sender ","color":"green"},{"text":"Destroy a Ghast with a fireball","color":"gray"}]
+execute if score achievement internal matches 24 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Oh Shiny ","color":"green"},{"text":"Distract Piglins with gold","color":"gray"}]
+execute if score achievement internal matches 25 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"This Boat Has Legs ","color":"green"},{"text":"Ride a Strider with a Warped Fungus on a Stick","color":"gray"}]
+execute if score achievement internal matches 26 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Who is Cutting Onions? ","color":"green"},{"text":"Obtain Crying Obsidian","color":"gray"}]
+execute if score achievement internal matches 27 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"War Pigs ","color":"green"},{"text":"Loot a chest in a Bastion Remnant","color":"gray"}]
+execute if score achievement internal matches 28 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Into Fire ","color":"green"},{"text":"Relieve a Blaze of its rod","color":"gray"}]
+execute if score achievement internal matches 29 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Local Brewery ","color":"green"},{"text":"Brew a potion","color":"gray"}]
+execute if score achievement internal matches 30 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Country Lode, Take Me Home ","color":"green"},{"text":"Use a compass on a Lodestone","color":"gray"}]
+execute if score achievement internal matches 31 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"A Terrible Fortress ","color":"green"},{"text":"Break your way into a Nether Fortress","color":"gray"}]
+execute if score achievement internal matches 32 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Those Were The Days ","color":"green"},{"text":"Enter a Bastion Remnant","color":"gray"}]
