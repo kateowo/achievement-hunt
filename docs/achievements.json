@@ -32,6 +32,12 @@
             "namespace": "story/shiny_gear"
         },
         {
+            "icon": "enchanted_book",
+            "name": "Enchanter",
+            "description": "Enchanty an item at an Enchantment Table",
+            "namespace": "story/enchant_item"
+        },
+        {
             "icon": "emerald",
             "name": "What a Deal!",
             "description": "Successfully trade with a villager",
@@ -127,6 +133,20 @@
             "name": "This Boat Has Legs",
             "description": "Ride a Strider with a Warped Fungus on a Stick",
             "namespace": "nether/ride_strider"
+        },
+        {
+            "icon": "crying_obsidian",
+            "icon_type": "block",
+            "name": "Who is Cutting Onions?",
+            "description": "Obtain Crying Obsidian",
+            "namespace": "nether/obtain_crying_obsidian"
+        },
+        {
+            "icon": "chest",
+            "icon_type": "block",
+            "name": "War Pigs",
+            "description": "Loot a chest in a Bastion Remnant",
+            "namespace": "nether/loot_bastion"
         },
         {
             "icon": "lodestone_side",
