@@ -1,2 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://plexion.dev/css/reset.css">
+    <link rel="stylesheet" href="https://plexion.dev/css/style.css">
+
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>Achievement generate</title>
+</head>
 <div id="a"></div>
-<script src="generate.js"></script>
+<hr>
+<div id="b"></div>
+<script>
+    $.get( `achievements.json`, function( response ) {
+        let data = response;
+
+        // generate first part
+        let text = "";
+        for (let i in data.achievements) {
+            text = (`${text}<br>execute if score achievement internal matches ${i} run title @a subtitle {"text":"${data.achievements[i].name}"}`);
+        }
+        document.getElementById("a").innerHTML = (`${text}`);
+
+        // generate second part
+        let text2 = "";
+        for (let i in data.achievements) {
+            text2 = (`${text2}<br>execute if score achievement internal matches ${i} run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"${data.achievements[i].name} ","color":"green"},{"text":"${data.achievements[i].description}","color":"gray"}]`);
+        }
+        document.getElementById("b").innerHTML = (`${text2}`);
+    });
+</script>
