@@ -30,7 +30,7 @@
         // generate second part
         let text2 = "";
         for (let i in data.achievements) {
-            text2 = (`${text2}<br>execute if score achievement internal matches ${i} run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"${data.achievements[i].name} ","color":"green"},{"text":"${data.achievements[i].description}","color":"gray"}]`);
+            text2 = (`${text2}<br>execute if score achievement internal matches ${i} run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"${data.achievements[i].name} ","color":"green"},{"text":"${data.achievements[i].description}","color":"gray"}]`);
         }
         document.getElementById("b").innerHTML = (`${text2}`);
 
