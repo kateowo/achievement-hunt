@@ -81,3 +81,8 @@ execute if score achievement internal matches 29 run tellraw @a ["",{"text":"[",
 execute if score achievement internal matches 30 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Country Lode, Take Me Home ","color":"green"},{"text":"Use a compass on a Lodestone","color":"gray"}]
 execute if score achievement internal matches 31 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"A Terrible Fortress ","color":"green"},{"text":"Break your way into a Nether Fortress","color":"gray"}]
 execute if score achievement internal matches 32 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"Those Were The Days ","color":"green"},{"text":"Enter a Bastion Remnant","color":"gray"}]
+
+
+# reset timer
+scoreboard players set time internal 0
+scoreboard players set time_s internal 0
