@@ -1,6 +1,12 @@
 {
     "achievements": [
         {
+            "icon": "iron_chestplate",
+            "name": "Suit Up",
+            "description": "Protect yourself with a piece of iron armor",
+            "namespace": "story/obtain_armor"
+        },
+        {
             "icon": "lava_bucket",
             "name": "Hot Stuff",
             "description": "Fill a bucket with lava",
@@ -13,16 +19,22 @@
             "namespace": "story/deflect_arrow"
         },
         {
+            "icon": "obsidian",
+            "name": "Ice Bucket Challenge",
+            "description": "Obtain a block of obsidian",
+            "namespace": "story/form_obsidian"
+        },
+        {
             "icon": "diamond",
             "name": "Diamonds!",
             "description": "Acquire diamonds",
             "namespace": "story/mine_diamond"
         },
         {
-            "icon": "obsidian",
-            "name": "Ice Bucket Challenge",
-            "description": "Obtain a block of obsidian",
-            "namespace": "story/form_obsidian"
+            "icon": "flint_and_steel",
+            "name": "We Need to Go Deeper",
+            "description": "Build, light and enter a Nether Portal",
+            "namespace": "story/enter_the_nether"
         },
         {
             "icon": "diamond_chestplate",
@@ -37,113 +49,34 @@
             "namespace": "story/enchant_item"
         },
         {
-            "icon": "emerald",
-            "name": "What a Deal!",
-            "description": "Successfully trade with a villager",
-            "namespace": "adventure/trade"
-        },
-        {
-            "icon": "crossbow_standby",
-            "name": "Ol' Betsy",
-            "description": "Shoot a crossbow",
-            "namespace": "adventure/ol_betsy"
-        },
-        {
-            "icon": "honey_block",
-            "name": "Sticky Situation",
-            "description": "Jump into a Honey Block to break your fall",
-            "namespace": "adventure/honey_block_slide"
-        },
-        {
-            "icon": "water_bucket",
-            "name": "Caves & Cliffs",
-            "description": "Free fall from the top of the world (build limit) to the bottom of the world and survive",
-            "namespace": "adventure/fall_from_world_height"
-        },
-        {
-            "icon": "trident",
-            "name": "A Throwaway Joke",
-            "description": "Throw a trident at something. Note: Throwing away your only weapon is not a good idea.",
-            "namespace": "adventure/throw_trident"
-        },
-        {
-            "icon": "bow",
-            "name": "Take Aim",
-            "description": "Shoot something with an arrow",
-            "namespace": "adventure/shoot_arrow"
-        },
-        {
-            "icon": "spyglass",
-            "name": "Is It a Bird?",
-            "description": "Look at a parrot through a spyglass",
-            "namespace": "adventure/spyglass_at_parrot"
-        },
-        {
-            "icon": "red_bed",
-            "name": "Sweet Dreams",
-            "description": "Sleep in a bed to change your respawn point",
-            "namespace": "adventure/sleep_in_bed"
-        },
-        {
-            "icon": "carved_pumpkin",
-            "icon_type": "block",
-            "name": "Hired Help",
-            "description": "Summon an Iron Golem to help defend a village",
-            "namespace": "adventure/summon_iron_golem"
-        },
-        {
-            "icon": "totem_of_undying",
-            "name": "Postmortal",
-            "description": "Use a Totem of Undying to cheat death",
-            "namespace": "adventure/totem_of_undying"
-        },
-        {
-            "icon": "wheat",
-            "name": "A Seedy Place",
-            "description": "Plant a seed and watch it grow",
-            "namespace": "husbandry/plant_seed"
-        },
-        {
-            "icon": "honey_bottle",
-            "name": "Bee Our Guest",
-            "description": "Use a Campfire to collect Honey from a Beehive using a Bottle without aggravating the bees",
-            "namespace": "husbandry/safely_harvest_honey"
-        },
-        {
-            "icon": "oak_boat",
-            "name": "Whatever Floats Your Goat!",
-            "description": "Get in a Boat and float with a Goat",
-            "namespace": "husbandry/ride_a_boat_with_a_goat"
-        },
-        {
-            "icon": "lead",
-            "name": "Best Friends Forever",
-            "description": "Tame an animal",
-            "namespace": "husbandry/tame_an_animal"
-        },
-        {
-            "icon": "glow_ink_sac",
-            "name": "Glow and Behold!",
-            "description": "Make the text of a sign glow",
-            "namespace": "husbandry/make_a_sign_glow"
-        },
-        {
-            "icon": "fishing_rod",
-            "name": "Fishy Business",
-            "description": "Catch a fish",
-            "namespace": "husbandry/fishy_business"
-        },
-        {
-            "icon": "axolotl_bucket",
-            "name": "The Cutest Predator",
-            "description": "Catch an axolotl in a bucket",
-            "namespace": "husbandry/axolotl_in_a_bucket"
+            "icon": "golden_apple",
+            "name": "Zombie Doctor",
+            "description": "Weaken and then cure a Zombie Villager",
+            "namespace": "story/cure_zombie_villager"
         },
         {
             "icon": "fire_charge",
             "name": "Return to Sender",
             "description": "Destroy a Ghast with a fireball",
             "namespace": "nether/return_to_sender"
+        },
+        {
+            "icon": "polished_blackstone_bricks",
+            "name": "Those Were The Days",
+            "description": "Enter a Bastion Remnant",
+            "namespace": "nether/find_bastion"
+        },
+        {
+            "icon": "nether_bricks",
+            "name": "A Terrible Fortress",
+            "description": "Break your way into a Nether Fortress",
+            "namespace": "nether/find_fortress"
+        },
+        {
+            "icon": "crying_obsidian",
+            "name": "Who is Cutting Onions?",
+            "description": "Obtain Crying Obsidian",
+            "namespace": "nether/obtain_crying_obsidian"
         },
         {
             "icon": "gold_ingot",
@@ -158,16 +91,22 @@
             "namespace": "nether/ride_strider"
         },
         {
-            "icon": "crying_obsidian",
-            "name": "Who is Cutting Onions?",
-            "description": "Obtain Crying Obsidian",
-            "namespace": "nether/obtain_crying_obsidian"
-        },
-        {
             "icon": "chest",
             "name": "War Pigs",
             "description": "Loot a chest in a Bastion Remnant",
             "namespace": "nether/loot_bastion"
+        },
+        {
+            "icon": "lodestone",
+            "name": "Country Lode, Take Me Home",
+            "description": "Use a compass on a Lodestone",
+            "namespace": "nether/use_lodestone"
+        },
+        {
+            "icon": "bone",
+            "name": "Spooky Scary Skeleton",
+            "description": "Obtain a Wither Skeleton's skull",
+            "namespace": "nether/get_wither_skull"
         },
         {
             "icon": "blaze_rod",
@@ -182,22 +121,131 @@
             "namespace": "nether/brew_potion"
         },
         {
-            "icon": "lodestone",
-            "name": "Country Lode, Take Me Home",
-            "description": "Use a compass on a Lodestone",
-            "namespace": "nether/use_lodestone"
+            "icon": "spyglass",
+            "name": "Is It a Bird?",
+            "description": "Look at a parrot through a spyglass",
+            "namespace": "adventure/spyglass_at_parrot"
         },
         {
-            "icon": "nether_bricks",
-            "name": "A Terrible Fortress",
-            "description": "Break your way into a Nether Fortress",
-            "namespace": "nether/find_fortress"
+            "icon": "iron_sword",
+            "name": "Monster Hunter",
+            "description": "Kill any hostile monster",
+            "namespace": "adventure/kill_a_mob"
         },
         {
-            "icon": "polished_blackstone_bricks",
-            "name": "Those Were The Days",
-            "description": "Enter a Bastion Remnant",
-            "namespace": "nether/find_bastion"
+            "icon": "emerald",
+            "name": "What a Deal!",
+            "description": "Successfully trade with a villager",
+            "namespace": "adventure/trade"
+        },
+        {
+            "icon": "honey_block",
+            "name": "Sticky Situation",
+            "description": "Jump into a Honey Block to break your fall",
+            "namespace": "adventure/honey_block_slide"
+        },
+        {
+            "icon": "crossbow_standby",
+            "name": "Ol' Betsy",
+            "description": "Shoot a crossbow",
+            "namespace": "adventure/ol_betsy"
+        },
+        {
+            "icon": "water_bucket",
+            "name": "Caves & Cliffs",
+            "description": "Free fall from the top of the world (build limit) to the bottom of the world and survive",
+            "namespace": "adventure/fall_from_world_height"
+        },
+        {
+            "icon": "red_bed",
+            "name": "Sweet Dreams",
+            "description": "Sleep in a bed to change your respawn point",
+            "namespace": "adventure/sleep_in_bed"
+        },
+        {
+            "icon": "trident",
+            "name": "A Throwaway Joke",
+            "description": "Throw a trident at something. Note: Throwing away your only weapon is not a good idea.",
+            "namespace": "adventure/throw_trident"
+        },
+        {
+            "icon": "bow",
+            "name": "Take Aim",
+            "description": "Shoot something with an arrow",
+            "namespace": "adventure/shoot_arrow"
+        },
+        {
+            "icon": "totem_of_undying",
+            "name": "Postmortal",
+            "description": "Use a Totem of Undying to cheat death",
+            "namespace": "adventure/totem_of_undying"
+        },
+        {
+            "icon": "carved_pumpkin",
+            "icon_type": "block",
+            "name": "Hired Help",
+            "description": "Summon an Iron Golem to help defend a village",
+            "namespace": "adventure/summon_iron_golem"
+        },
+        {
+            "icon": "crossbow_standy",
+            "name": "Who's the Pillager Now?",
+            "description": "Give a Pillager a taste of their own medicine",
+            "namespace": "adventure/whos_the_pillager_now"
+        },
+        {
+            "icon": "leather_boots",
+            "name": "Light as a Rabbit",
+            "description": "Walk on powder snow...without sinking in it",
+            "namespace": "adventure/walk_on_powder_snow_with_leather_boots"
+        },
+        {
+            "icon": "honey_bottle",
+            "name": "Bee Our Guest",
+            "description": "Use a Campfire to collect Honey from a Beehive using a Bottle without aggravating the bees",
+            "namespace": "husbandry/safely_harvest_honey"
+        },
+        {
+            "icon": "oak_boat",
+            "name": "Whatever Floats Your Goat!",
+            "description": "Get in a Boat and float with a Goat",
+            "namespace": "husbandry/ride_a_boat_with_a_goat"
+        },
+        {
+            "icon": "glow_ink_sac",
+            "name": "Glow and Behold!",
+            "description": "Make the text of a sign glow",
+            "namespace": "husbandry/make_a_sign_glow"
+        },
+        {
+            "icon": "fishing_rod",
+            "name": "Fishy Business",
+            "description": "Catch a fish",
+            "namespace": "husbandry/fishy_business"
+        },
+        {
+            "icon": "wheat",
+            "name": "A Seedy Place",
+            "description": "Plant a seed and watch it grow",
+            "namespace": "husbandry/plant_seed"
+        },
+        {
+            "icon": "honeycomb",
+            "name": "Wax On",
+            "description": "Apply Honeycomb to a Copper block!",
+            "namespace": "husbandry/wax_on"
+        },
+        {
+            "icon": "lead",
+            "name": "Best Friends Forever",
+            "description": "Tame an animal",
+            "namespace": "husbandry/tame_an_animal"
+        },
+        {
+            "icon": "axolotl_bucket",
+            "name": "The Cutest Predator",
+            "description": "Catch an axolotl in a bucket",
+            "namespace": "husbandry/axolotl_in_a_bucket"
         }
     ]
 }
