@@ -24,6 +24,7 @@
     $.get( `achievements.json`, function( response ) {
         let data = response;
         for (let i in data.achievements) {
+            if (data.achievements[i].description == "") { continue };
             let em = document.createElement('span');
             em.classList.add('desc');
 
