@@ -20,6 +20,7 @@
         },
         {
             "icon": "obsidian",
+            "icon_type": "block",
             "name": "Ice Bucket Challenge",
             "description": "Obtain a block of obsidian",
             "namespace": "story/form_obsidian"
@@ -44,6 +45,7 @@
         },
         {
             "icon": "honey_block",
+            "icon_type": "block",
             "name": "Sticky Situation",
             "description": "Jump into a Honey Block to break your fall",
             "namespace": "adventure/honey_block_slide"
@@ -128,18 +130,21 @@
         },
         {
             "icon": "lodestone",
+            "icon_type": "block",
             "name": "Country Lode, Take Me Home",
             "description": "Use a compass on a Lodestone",
             "namespace": "nether/use_lodestone"
         },
         {
             "icon": "nether_bricks",
+            "icon_type": "block",
             "name": "A Terrible Fortress",
             "description": "Break your way into a Nether Fortress",
             "namespace": "nether/find_fortress"
         },
         {
             "icon": "polished_blackstone_bricks",
+            "icon_type": "block",
             "name": "Those Were The Days",
             "description": "Enter a Bastion Remnant",
             "namespace": "nether/find_bastion"

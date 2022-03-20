@@ -28,8 +28,13 @@
             let em = document.createElement('span');
             em.classList.add('desc');
 
+            let type = "item";
+            if (data.achievements[i].icon_type == "block") {
+                type = "block";
+            }
+
             em.innerHTML = (`
-            <span class="icon"><img src="https://plexion.dev/img/item/${data.achievements[i].icon}.png"></span>
+            <span class="icon"><img src="https://plexion.dev/img/${type}/${data.achievements[i].icon}.png"></span>
             <span class="text"><h5>${data.achievements[i].name}</h5><p>${data.achievements[i].description}</p></span>
             `);
 
