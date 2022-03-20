@@ -40,9 +40,23 @@
     });
 </script>
 <style>
-    .icon img, .icon {
+    .icon img {
         width: 32px !important;
+        margin: 0 8px;
         height: 32px;
         image-rendering: crisp-edges;
+        position: relative;
+        right: 1px;
+        bottom: 1px;
+    }
+    .icon {
+        width: 48px !important;
+        height: 48px !important;
+        image-rendering: crisp-edges;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(achievement.png);
+        background-size: 48px;
     }
 </style>
