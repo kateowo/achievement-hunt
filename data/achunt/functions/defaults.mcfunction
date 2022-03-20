@@ -24,6 +24,9 @@ gamemode adventure @a[gamemode=!spectator]
 scoreboard players set 5 internal 5
 scoreboard players set 60 internal 60
 
+# create stands for rng
+function achunt:create
+
 # grace period
 scoreboard players set grace_period global 300
 

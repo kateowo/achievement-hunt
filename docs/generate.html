@@ -40,5 +40,12 @@
             text3 = (`${text3}<br>execute if score achievement internal matches ${i} if entity @a[advancements={minecraft:${data.achievements[i].namespace}=true}] as @a[advancements={minecraft:${data.achievements[i].namespace}=true},limit=1,sort=random] at @s run function achunt:pick/take`);
         }
         document.getElementById("c").innerHTML = (`${text3}`);
+
+        // generate fourth part
+        let text4 = "";
+        for (let i in data.achievements) {
+            text4 = (`${text4}<br>summon armor_stand 0 0 0 {NoGravity:1b,Silent:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["ah_option","${i}"]}`);
+        }
+        document.getElementById("c").innerHTML = (`${text4}`);
     });
 </script>

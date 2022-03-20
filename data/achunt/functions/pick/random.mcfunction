@@ -8,6 +8,7 @@ tag @e[tag=ah_option] remove ah_picked
 tag @e[tag=ah_option,limit=1,sort=random] add ah_picked
 
 # set scores
+# there's a lot more here then actually implemented (safe, just in case)
 execute if entity @e[tag=ah_option,tag=ah_picked,limit=1,tag=0] run scoreboard players set achievement internal 0
 execute if entity @e[tag=ah_option,tag=ah_picked,limit=1,tag=1] run scoreboard players set achievement internal 1
 execute if entity @e[tag=ah_option,tag=ah_picked,limit=1,tag=2] run scoreboard players set achievement internal 2

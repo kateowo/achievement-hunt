@@ -26,13 +26,13 @@ deprecated (for now?)
 ## achievements
 
 - [x] set-up list of achievements
-- [ ] create armour stands for random
+- [x] create armour stands for random
 - [x] randomly select achievement
 - [x] track if player earned achievement (`@a[advancements={minecraft:adventure/adventuring_time=true}]`)
 
 ## random
 
-- [ ] create rng system (using armour stands tagged)
+- [x] create rng system (using armour stands tagged)
 
 ## winning
 
