@@ -2,7 +2,7 @@
 
 
 # pick new achievement
-function achunt:pick/start
+function achunt:pick/go
 
 # announce
 tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"red","bold":true},{"text":"] ","color":"dark_gray"},{"text":"The grace period has ended.","color":"yellow"}]
