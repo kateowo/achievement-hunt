@@ -6,13 +6,14 @@ implement 'musical-chairs' system (elimination) as main mode (old one can be cla
 
 ## main
 
-- [ ] get core framework up and running
-- [ ] ensure timer is running
-- [ ] create grace period
+- [x] get core framework up and running
+- [x] ensure timer is running
+- [x] create grace period
 - [ ] track deaths (subtract points?)
-- [ ] reset timer upon main period and every achievement turn
+- [x] reset timer upon main period and every achievement turn
 
 ## elimination
+deprecated (for now?)
 - [ ] check achievement is claimed
 - [ ] tag user with passed
 - [ ] pick new achievement
@@ -27,7 +28,7 @@ implement 'musical-chairs' system (elimination) as main mode (old one can be cla
 - [x] set-up list of achievements
 - [ ] create armour stands for random
 - [x] randomly select achievement
-- [ ] track if player earned achievement (`@a[advancements={minecraft:adventure/adventuring_time=true}]`)
+- [x] track if player earned achievement (`@a[advancements={minecraft:adventure/adventuring_time=true}]`)
 
 ## random
 
@@ -40,7 +41,7 @@ implement 'musical-chairs' system (elimination) as main mode (old one can be cla
 
 ## general
 
-- [ ] clean-up and remove code from death-swap
+- [x] clean-up and remove code from death-swap
 
 ## LTM
 
