@@ -11,15 +11,23 @@
 
     <title>Achievement generate</title>
 </head>
+<br><label class="over">achunt:pick/go • used for announce subtitle</label>
 <div id="a"></div>
 <hr>
+<br><label class="over">achunt:pick/go • used for tellraw</label>
 <div id="b"></div>
 <hr>
+<br><label class="over">achunt:pick/checks • used for checking if user claimed achievement</label>
 <div id="c"></div>
 <hr>
+<br><label class="over">achunt:create • used for creating armour stands</label>
 <div id="d"></div>
 <hr>
+<br><label class="over">achunt:time_ac • used for bossbar</label>
 <div id="e"></div>
+<hr>
+<br><label class="over">achunt:pick/clear • used for clearing advancements</label>
+<div id="f"></div>
 <script>
     $.get( `achievements.json`, function( response ) {
         let data = response;
@@ -58,5 +66,12 @@
             text5 = (`${text5}<br>execute if score achievement internal matches ${i} if score period internal matches 1 run bossbar set achunt:main name ["",{"text":"${data.achievements[i].name} ","color":"green"},{"text":"${data.achievements[i].description}","color":"gray"}]`);
         }
         document.getElementById("e").innerHTML = (`${text5}`);
+
+        // generate sixth part
+        let text6 = "";
+        for (let i in data.achievements) {
+            text6 = (`${text6}<br>execute if score achievement internal matches ${i} run advancement revoke @a only ${data.achievements[i].namespace}`);
+        }
+        document.getElementById("f").innerHTML = (`${text6}`);
     });
 </script>
