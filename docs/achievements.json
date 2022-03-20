@@ -20,7 +20,6 @@
         },
         {
             "icon": "obsidian",
-            "icon_type": "block",
             "name": "Ice Bucket Challenge",
             "description": "Obtain a block of obsidian",
             "namespace": "story/form_obsidian"
@@ -50,8 +49,7 @@
             "namespace": "adventure/ol_betsy"
         },
         {
-            "icon": "honey_block_side",
-            "icon_type": "block",
+            "icon": "honey_block",
             "name": "Sticky Situation",
             "description": "Jump into a Honey Block to break your fall",
             "namespace": "adventure/honey_block_slide"
@@ -81,8 +79,7 @@
             "namespace": "adventure/spyglass_at_parrot"
         },
         {
-            "icon": "red_wool",
-            "icon_type": "block",
+            "icon": "red_bed",
             "name": "Sweet Dreams",
             "description": "Sleep in a bed to change your respawn point",
             "namespace": "adventure/sleep_in_bed"
@@ -162,14 +159,12 @@
         },
         {
             "icon": "crying_obsidian",
-            "icon_type": "block",
             "name": "Who is Cutting Onions?",
             "description": "Obtain Crying Obsidian",
             "namespace": "nether/obtain_crying_obsidian"
         },
         {
             "icon": "chest",
-            "icon_type": "block",
             "name": "War Pigs",
             "description": "Loot a chest in a Bastion Remnant",
             "namespace": "nether/loot_bastion"
@@ -187,22 +182,19 @@
             "namespace": "nether/brew_potion"
         },
         {
-            "icon": "lodestone_side",
-            "icon_type": "block",
+            "icon": "lodestone_",
             "name": "Country Lode, Take Me Home",
             "description": "Use a compass on a Lodestone",
             "namespace": "nether/use_lodestone"
         },
         {
             "icon": "nether_bricks",
-            "icon_type": "block",
             "name": "A Terrible Fortress",
             "description": "Break your way into a Nether Fortress",
             "namespace": "nether/find_fortress"
         },
         {
             "icon": "polished_blackstone_bricks",
-            "icon_type": "block",
             "name": "Those Were The Days",
             "description": "Enter a Bastion Remnant",
             "namespace": "nether/find_bastion"
