@@ -1,6 +1,9 @@
 # AH main loop
 
 
+# world
+bossbar set achunt:main players @a
+
 # time loop
 execute if score period internal matches 0..1 run function achunt:time
 

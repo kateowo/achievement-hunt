@@ -16,6 +16,10 @@
 <div id="b"></div>
 <hr>
 <div id="c"></div>
+<hr>
+<div id="d"></div>
+<hr>
+<div id="e"></div>
 <script>
     $.get( `achievements.json`, function( response ) {
         let data = response;
@@ -46,6 +50,13 @@
         for (let i in data.achievements) {
             text4 = (`${text4}<br>summon armor_stand 0 0 0 {NoGravity:1b,Silent:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["ah_option","${i}"]}`);
         }
-        document.getElementById("c").innerHTML = (`${text4}`);
+        document.getElementById("d").innerHTML = (`${text4}`);
+
+        // generate fifth part
+        let text5 = "";
+        for (let i in data.achievements) {
+            text5 = (`${text5}<br>execute if score achievement internal matches ${i} if score period internal matches 1 run bossbar set achunt:main name ["",{"text":"${data.achievements[i].name} ","color":"green"},{"text":"${data.achievements[i].description}","color":"gray"}]`);
+        }
+        document.getElementById("e").innerHTML = (`${text5}`);
     });
 </script>
