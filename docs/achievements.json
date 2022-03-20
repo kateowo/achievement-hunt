@@ -34,7 +34,7 @@
         {
             "icon": "enchanted_book",
             "name": "Enchanter",
-            "description": "Enchanty an item at an Enchantment Table",
+            "description": "Enchant an item at an Enchantment Table",
             "namespace": "story/enchant_item"
         },
         {
