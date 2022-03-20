@@ -1,75 +1,87 @@
 {
     "achievements": [
         {
-            "icon": "",
+            "icon": "lava_bucket",
             "name": "Hot Stuff",
-            "description": "",
+            "description": "Fill a bucket with lava",
             "namespace": "story/lava_bucket"
         },
         {
-            "icon": "",
+            "icon": "shield",
             "name": "Not Today, Thank You",
-            "description": "",
+            "description": "Block a projectile using your shield.",
             "namespace": "story/deflect_arrow"
         },
         {
-            "icon": "",
+            "icon": "diamond",
             "name": "Diamonds!",
-            "description": "",
+            "description": "Acquire diamonds",
             "namespace": "story/mine_diamond"
         },
         {
-            "icon": "",
+            "icon": "obsidian",
             "name": "Ice Bucket Challenge",
-            "description": "",
+            "description": "Obtain a block of obsidian",
             "namespace": "story/form_obsidian"
         },
         {
-            "icon": "",
+            "icon": "diamond_chestplate",
             "name": "Cover Me With Diamonds",
-            "description": "",
+            "description": "Diamond armor saves lives",
             "namespace": "story/shiny_gear"
         },
         {
-            "icon": "",
+            "icon": "emerald",
             "name": "What a Deal!",
-            "description": "",
+            "description": "Successfully trade with a villager",
             "namespace": "adventure/trade"
         },
         {
-            "icon": "",
+            "icon": "crossbow",
             "name": "Ol' Betsy",
-            "description": "",
+            "description": "Shoot a crossbow",
             "namespace": "adventure/ol_betsy"
         },
         {
-            "icon": "",
+            "icon": "honey_block",
+            "name": "Sticky Situation",
+            "description": "Jump into a Honey Block to break your fall",
+            "namespace": "adventure/honey_block_slide"
+        },
+        {
+            "icon": "water_bucket",
             "name": "Caves & Cliffs",
-            "description": "",
+            "description": "Free fall from the top of the world (build limit) to the bottom of the world and survive",
             "namespace": "adventure/fall_from_world_height"
         },
         {
-            "icon": "",
+            "icon": "trident",
             "name": "A Throwaway Joke",
-            "description": "",
+            "description": "Throw a trident at something. Note: Throwing away your only weapon is not a good idea.",
             "namespace": "adventure/throw_trident"
         },
         {
-            "icon": "",
+            "icon": "bow",
             "name": "Take Aim",
-            "description": "",
+            "description": "Shoot something with an arrow",
             "namespace": "adventure/shoot_arrow"
         },
         {
+            "icon": "wheat",
+            "name": "A Seedy Place",
+            "description": "Plant a seed and watch it grow",
+            "namespace": "husbandry/plant_seed"
+        },
+        {
             "icon": "honey_bottle",
-            "name": "Bee Our Quest",
-            "description": "",
+            "name": "Bee Our Guest",
+            "description": "Use a Campfire to collect Honey from a Beehive using a Bottle without aggravating the bees",
             "namespace": "husbandry/safely_harvest_honey"
         },
         {
             "icon": "oak_boat",
             "name": "Whatever Floats Your Goat!",
-            "description": "",
+            "description": "Get in a Boat and float with a Goat",
             "namespace": "husbandry/ride_a_boat_with_a_goat"
         },
         {
@@ -91,7 +103,7 @@
             "namespace": "husbandry/fishy_business"
         },
         {
-            "icon": "",
+            "icon": "axolotl_bucket",
             "name": "The Cutest Predator",
             "description": "Catch an axolotl in a bucket",
             "namespace": "husbandry/axolotl_in_a_bucket"
@@ -109,25 +121,25 @@
             "namespace": "nether/distract_piglin"
         },
         {
-            "icon": "",
+            "icon": "warped_fungus_on_a_stick",
             "name": "This Boat Has Legs",
             "description": "Ride a Strider with a Warped Fungus on a Stick",
             "namespace": "nether/ride_strider"
         },
         {
-            "icon": "",
+            "icon": "lodestone",
             "name": "Country Lode, Take Me Home",
             "description": "Use a compass on a Lodestone",
             "namespace": "nether/use_lodestone"
         },
         {
-            "icon": "",
+            "icon": "nether_bricks",
             "name": "A Terrible Fortress",
             "description": "Break your way into a Nether Fortress",
             "namespace": "nether/find_fortress"
         },
         {
-            "icon": "",
+            "icon": "polished_blackstone_bricks",
             "name": "Those Were The Days",
             "description": "Enter a Bastion Remnant",
             "namespace": "nether/find_bastion"
