@@ -151,12 +151,6 @@
             "namespace": "adventure/ol_betsy"
         },
         {
-            "icon": "water_bucket",
-            "name": "Caves & Cliffs",
-            "description": "Free fall from the top of the world (build limit) to the bottom of the world and survive",
-            "namespace": "adventure/fall_from_world_height"
-        },
-        {
             "icon": "red_bed",
             "name": "Sweet Dreams",
             "description": "Sleep in a bed to change your respawn point",

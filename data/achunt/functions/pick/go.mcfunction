@@ -41,22 +41,21 @@ execute if score achievement internal matches 21 run title @a subtitle {"text":"
 execute if score achievement internal matches 22 run title @a subtitle {"text":"What a Deal!"}
 execute if score achievement internal matches 23 run title @a subtitle {"text":"Sticky Situation"}
 execute if score achievement internal matches 24 run title @a subtitle {"text":"Ol' Betsy"}
-execute if score achievement internal matches 25 run title @a subtitle {"text":"Caves & Cliffs"}
-execute if score achievement internal matches 26 run title @a subtitle {"text":"Sweet Dreams"}
-execute if score achievement internal matches 27 run title @a subtitle {"text":"A Throwaway Joke"}
-execute if score achievement internal matches 28 run title @a subtitle {"text":"Take Aim"}
-execute if score achievement internal matches 29 run title @a subtitle {"text":"Postmortal"}
-execute if score achievement internal matches 30 run title @a subtitle {"text":"Hired Help"}
-execute if score achievement internal matches 31 run title @a subtitle {"text":"Who's the Pillager Now?"}
-execute if score achievement internal matches 32 run title @a subtitle {"text":"Light as a Rabbit"}
-execute if score achievement internal matches 33 run title @a subtitle {"text":"Bee Our Guest"}
-execute if score achievement internal matches 34 run title @a subtitle {"text":"Whatever Floats Your Goat!"}
-execute if score achievement internal matches 35 run title @a subtitle {"text":"Glow and Behold!"}
-execute if score achievement internal matches 36 run title @a subtitle {"text":"Fishy Business"}
-execute if score achievement internal matches 37 run title @a subtitle {"text":"A Seedy Place"}
-execute if score achievement internal matches 38 run title @a subtitle {"text":"Wax On"}
-execute if score achievement internal matches 39 run title @a subtitle {"text":"Best Friends Forever"}
-execute if score achievement internal matches 40 run title @a subtitle {"text":"The Cutest Predator"}
+execute if score achievement internal matches 25 run title @a subtitle {"text":"Sweet Dreams"}
+execute if score achievement internal matches 26 run title @a subtitle {"text":"A Throwaway Joke"}
+execute if score achievement internal matches 27 run title @a subtitle {"text":"Take Aim"}
+execute if score achievement internal matches 28 run title @a subtitle {"text":"Postmortal"}
+execute if score achievement internal matches 29 run title @a subtitle {"text":"Hired Help"}
+execute if score achievement internal matches 30 run title @a subtitle {"text":"Who's the Pillager Now?"}
+execute if score achievement internal matches 31 run title @a subtitle {"text":"Light as a Rabbit"}
+execute if score achievement internal matches 32 run title @a subtitle {"text":"Bee Our Guest"}
+execute if score achievement internal matches 33 run title @a subtitle {"text":"Whatever Floats Your Goat!"}
+execute if score achievement internal matches 34 run title @a subtitle {"text":"Glow and Behold!"}
+execute if score achievement internal matches 35 run title @a subtitle {"text":"Fishy Business"}
+execute if score achievement internal matches 36 run title @a subtitle {"text":"A Seedy Place"}
+execute if score achievement internal matches 37 run title @a subtitle {"text":"Wax On"}
+execute if score achievement internal matches 38 run title @a subtitle {"text":"Best Friends Forever"}
+execute if score achievement internal matches 39 run title @a subtitle {"text":"The Cutest Predator"}
 
 # tellraw, contains name+description
 execute if score achievement internal matches 0 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Suit Up ","color":"green"},{"text":"Protect yourself with a piece of iron armor","color":"gray"}]
@@ -84,22 +83,21 @@ execute if score achievement internal matches 21 run tellraw @a ["",{"text":"[",
 execute if score achievement internal matches 22 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"What a Deal! ","color":"green"},{"text":"Successfully trade with a villager","color":"gray"}]
 execute if score achievement internal matches 23 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Sticky Situation ","color":"green"},{"text":"Jump into a Honey Block to break your fall","color":"gray"}]
 execute if score achievement internal matches 24 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Ol' Betsy ","color":"green"},{"text":"Shoot a crossbow","color":"gray"}]
-execute if score achievement internal matches 25 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Caves & Cliffs ","color":"green"},{"text":"Free fall from the top of the world (build limit) to the bottom of the world and survive","color":"gray"}]
-execute if score achievement internal matches 26 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Sweet Dreams ","color":"green"},{"text":"Sleep in a bed to change your respawn point","color":"gray"}]
-execute if score achievement internal matches 27 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"A Throwaway Joke ","color":"green"},{"text":"Throw a trident at something. Note: Throwing away your only weapon is not a good idea.","color":"gray"}]
-execute if score achievement internal matches 28 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Take Aim ","color":"green"},{"text":"Shoot something with an arrow","color":"gray"}]
-execute if score achievement internal matches 29 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Postmortal ","color":"green"},{"text":"Use a Totem of Undying to cheat death","color":"gray"}]
-execute if score achievement internal matches 30 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Hired Help ","color":"green"},{"text":"Summon an Iron Golem to help defend a village","color":"gray"}]
-execute if score achievement internal matches 31 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Who's the Pillager Now? ","color":"green"},{"text":"Give a Pillager a taste of their own medicine","color":"gray"}]
-execute if score achievement internal matches 32 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Light as a Rabbit ","color":"green"},{"text":"Walk on powder snow...without sinking in it","color":"gray"}]
-execute if score achievement internal matches 33 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Bee Our Guest ","color":"green"},{"text":"Use a Campfire to collect Honey from a Beehive using a Bottle without aggravating the bees","color":"gray"}]
-execute if score achievement internal matches 34 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Whatever Floats Your Goat! ","color":"green"},{"text":"Get in a Boat and float with a Goat","color":"gray"}]
-execute if score achievement internal matches 35 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Glow and Behold! ","color":"green"},{"text":"Make the text of a sign glow","color":"gray"}]
-execute if score achievement internal matches 36 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Fishy Business ","color":"green"},{"text":"Catch a fish","color":"gray"}]
-execute if score achievement internal matches 37 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"A Seedy Place ","color":"green"},{"text":"Plant a seed and watch it grow","color":"gray"}]
-execute if score achievement internal matches 38 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Wax On ","color":"green"},{"text":"Apply Honeycomb to a Copper block!","color":"gray"}]
-execute if score achievement internal matches 39 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Best Friends Forever ","color":"green"},{"text":"Tame an animal","color":"gray"}]
-execute if score achievement internal matches 40 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"The Cutest Predator ","color":"green"},{"text":"Catch an axolotl in a bucket","color":"gray"}]
+execute if score achievement internal matches 25 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Sweet Dreams ","color":"green"},{"text":"Sleep in a bed to change your respawn point","color":"gray"}]
+execute if score achievement internal matches 26 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"A Throwaway Joke ","color":"green"},{"text":"Throw a trident at something. Note: Throwing away your only weapon is not a good idea.","color":"gray"}]
+execute if score achievement internal matches 27 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Take Aim ","color":"green"},{"text":"Shoot something with an arrow","color":"gray"}]
+execute if score achievement internal matches 28 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Postmortal ","color":"green"},{"text":"Use a Totem of Undying to cheat death","color":"gray"}]
+execute if score achievement internal matches 29 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Hired Help ","color":"green"},{"text":"Summon an Iron Golem to help defend a village","color":"gray"}]
+execute if score achievement internal matches 30 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Who's the Pillager Now? ","color":"green"},{"text":"Give a Pillager a taste of their own medicine","color":"gray"}]
+execute if score achievement internal matches 31 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Light as a Rabbit ","color":"green"},{"text":"Walk on powder snow...without sinking in it","color":"gray"}]
+execute if score achievement internal matches 32 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Bee Our Guest ","color":"green"},{"text":"Use a Campfire to collect Honey from a Beehive using a Bottle without aggravating the bees","color":"gray"}]
+execute if score achievement internal matches 33 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Whatever Floats Your Goat! ","color":"green"},{"text":"Get in a Boat and float with a Goat","color":"gray"}]
+execute if score achievement internal matches 34 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Glow and Behold! ","color":"green"},{"text":"Make the text of a sign glow","color":"gray"}]
+execute if score achievement internal matches 35 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Fishy Business ","color":"green"},{"text":"Catch a fish","color":"gray"}]
+execute if score achievement internal matches 36 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"A Seedy Place ","color":"green"},{"text":"Plant a seed and watch it grow","color":"gray"}]
+execute if score achievement internal matches 37 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Wax On ","color":"green"},{"text":"Apply Honeycomb to a Copper block!","color":"gray"}]
+execute if score achievement internal matches 38 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"Best Friends Forever ","color":"green"},{"text":"Tame an animal","color":"gray"}]
+execute if score achievement internal matches 39 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"The Cutest Predator ","color":"green"},{"text":"Catch an axolotl in a bucket","color":"gray"}]
 
 
 # reset timer

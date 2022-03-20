@@ -44,4 +44,3 @@ summon armor_stand 0 0 0 {NoGravity:1b,Silent:1b,Invulnerable:1b,Marker:1b,Invis
 summon armor_stand 0 0 0 {NoGravity:1b,Silent:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["ah_option","37"]}
 summon armor_stand 0 0 0 {NoGravity:1b,Silent:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["ah_option","38"]}
 summon armor_stand 0 0 0 {NoGravity:1b,Silent:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["ah_option","39"]}
-summon armor_stand 0 0 0 {NoGravity:1b,Silent:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["ah_option","40"]}
