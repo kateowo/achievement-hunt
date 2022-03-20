@@ -15,7 +15,7 @@ execute as @a if score period internal matches 0 unless score @s last_login matc
 execute as @a if score period internal matches 0 unless score @s last_login matches 0 run effect clear @s regeneration
 execute as @a if score period internal matches 0 unless score @s last_login matches 0 run scoreboard players set @s last_login 0
 # 1, main game
-execute as @a if score period internal matches 1 unless score @s last_login matches 1 unless score @s death_time matches 1.. run gamemode survival @s[team=!admin,gamemode=!spectator]
+execute as @a if score period internal matches 1 unless score @s last_login matches 1 run gamemode survival @s[team=!admin,gamemode=!spectator]
 execute as @a if score period internal matches 1 unless score @s last_login matches 1 run effect clear @s weakness
 execute as @a if score period internal matches 1 unless score @s last_login matches 1 run effect clear @s resistance
 execute as @a if score period internal matches 1 unless score @s last_login matches 1 run effect clear @s regeneration
