@@ -4,6 +4,9 @@
 # pick random
 function achunt:pick/random
 
+# remove achievement
+function achunt:pick/clear
+
 # announce
 title @a title {"text":"NEW ACHIEVEMENT","color":"green","bold":true}
 # sfx
