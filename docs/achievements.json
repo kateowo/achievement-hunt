@@ -188,7 +188,7 @@
             "namespace": "adventure/summon_iron_golem"
         },
         {
-            "icon": "crossbow_standy",
+            "icon": "crossbow_standby",
             "name": "Who's the Pillager Now?",
             "description": "Give a Pillager a taste of their own medicine",
             "namespace": "adventure/whos_the_pillager_now"
