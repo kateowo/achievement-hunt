@@ -7,7 +7,7 @@
             "namespace": "story/lava_bucket"
         },
         {
-            "icon": "shield",
+            "icon": "banner",
             "name": "Not Today, Thank You",
             "description": "Block a projectile using your shield.",
             "namespace": "story/deflect_arrow"
@@ -38,13 +38,13 @@
             "namespace": "adventure/trade"
         },
         {
-            "icon": "crossbow",
+            "icon": "crossbow_standby",
             "name": "Ol' Betsy",
             "description": "Shoot a crossbow",
             "namespace": "adventure/ol_betsy"
         },
         {
-            "icon": "honey_block",
+            "icon": "honey_block_side",
             "icon_type": "block",
             "name": "Sticky Situation",
             "description": "Jump into a Honey Block to break your fall",
@@ -129,7 +129,7 @@
             "namespace": "nether/ride_strider"
         },
         {
-            "icon": "lodestone",
+            "icon": "lodestone_side",
             "icon_type": "block",
             "name": "Country Lode, Take Me Home",
             "description": "Use a compass on a Lodestone",
