@@ -7,7 +7,7 @@ scoreboard players set grace_period global 300
 # mode
 ## 1 = elimination (default)
 ## 0 = classic
-scoreboard players set mode global 1
+scoreboard players set mode global 0
 
 # extras
 scoreboard players set cut_clean global 1
@@ -19,9 +19,6 @@ gamerule doImmediateRespawn true
 gamerule keepInventory false
 effect clear @a
 gamemode adventure @a[gamemode=!spectator]
-# internal
-scoreboard players set 5 internal 5
-scoreboard players set 60 internal 60
 
 # create stands for rng
 function achunt:create
