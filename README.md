@@ -2,7 +2,7 @@
 
 pretty much ready
 
-view achievement list [here](https://plex1on.github.io/achievement-hunt)
+view achievement list [here](https://plex1on.github.io/Achievement-Hunt)
 
 ---
 
