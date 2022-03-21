@@ -10,11 +10,33 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <title>Achievement list</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://plexion.dev/js/scroll.js"></script>
 </head>
 <body class="dark">
+    <header class="dark">
+        <a class="brand" href="/">
+            <h1 translate="no">plexion</h1>
+        </a>
+        <span class="links">
+            <a href="https://plexion.dev/library/achievementhunt" aria-label="Back Home"><i class="text"><i class="icon w-20" stroke-width="2.5" data-feather="arrow-left"></i><span class="bar"></span></i></a>
+            <a href="/" class="focus" aria-label="Achievements"><i class="icon w-20" stroke-width="2.5" data-feather="book"></i><i class="text">Achievements<span class="bar"></span></i></a>
+        </span>
+        <span class="menu"></span>
+    </header>
+    <div class="gap small"></div>
     <section class="left header sep no-align" style="bottom: 0;">
-        <h4>Full list<span class="text-14" id="full" style="font-weight: 500; color: var(--text-main); margin-left: 10px;"></span></h4>
-        <div class="supports" id="hook"></div>
+        <h4>All achievements<span class="text-14" id="full" style="font-weight: 500; color: var(--text-main); margin-left: 10px;"></span></h4>
+        <br>
+        <label class="over">Minecraft</label>
+        <div class="supports" id="story"></div>
+        <label class="over">Nether</label>
+        <div class="supports" id="nether"></div>
+        <label class="over">Adventure</label>
+        <div class="supports" id="adventure"></div>
+        <label class="over">Husbandry</label>
+        <div class="supports" id="husbandry"></div>
     </section>
 </body>
 <script>
@@ -28,6 +50,9 @@
             if (data.achievements[i].description == "") { continue };
             let em = document.createElement('span');
             em.classList.add('desc');
+            if (data.achievements[i].type != null) {
+                em.classList.add(data.achievements[i].type);
+            }
 
             let type = "item";
             if (data.achievements[i].icon_type == "block") {
@@ -41,28 +66,40 @@
 
 
             // append
-            hook.appendChild(em);
+            document.getElementById(data.achievements[i].category).appendChild(em);
         }
     });
 </script>
 <style>
-    .icon img {
+    .supports .icon img {
         width: 32px !important;
-        margin: 0 8px;
+        margin: 0 10px;
         height: 32px;
         image-rendering: crisp-edges;
         position: relative;
         right: 1px;
         bottom: 1px;
     }
-    .icon {
-        width: 48px !important;
-        height: 48px !important;
+    .supports .icon {
+        width: 52px !important;
+        height: 52px !important;
         image-rendering: crisp-edges;
         display: flex;
         justify-content: center;
         align-items: center;
         background-image: url(achievement.png);
-        background-size: 48px;
+        background-size: 52px;
+    }
+
+    /* fancy */
+    .fancy .icon {
+        background-image: url(achievement-fancy.png);
+    }
+    /* oval */
+    .oval .icon {
+        background-image: url(achievement-oval.png);
     }
 </style>
+<script>
+    feather.replace();
+</script>
