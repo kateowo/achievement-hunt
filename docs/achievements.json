@@ -4,218 +4,283 @@
             "icon": "iron_chestplate",
             "name": "Suit Up",
             "description": "Protect yourself with a piece of iron armor",
-            "namespace": "story/obtain_armor"
+            "namespace": "story/obtain_armor",
+            "category": "story"
         },
         {
             "icon": "lava_bucket",
             "name": "Hot Stuff",
             "description": "Fill a bucket with lava",
-            "namespace": "story/lava_bucket"
+            "namespace": "story/lava_bucket",
+            "category": "story"
+        },
+        {
+            "icon": "iron_pickaxe",
+            "name": "Isn't It Iron Pick",
+            "description": "Upgrade your pickaxe",
+            "namespace": "story/iron_tools",
+            "category": "story"
         },
         {
             "icon": "shield",
             "name": "Not Today, Thank You",
             "description": "Block a projectile using your shield.",
-            "namespace": "story/deflect_arrow"
+            "namespace": "story/deflect_arrow",
+            "category": "story"
         },
         {
             "icon": "obsidian",
             "name": "Ice Bucket Challenge",
             "description": "Obtain a block of obsidian",
-            "namespace": "story/form_obsidian"
+            "namespace": "story/form_obsidian",
+            "category": "story"
         },
         {
             "icon": "diamond",
             "name": "Diamonds!",
             "description": "Acquire diamonds",
-            "namespace": "story/mine_diamond"
+            "namespace": "story/mine_diamond",
+            "category": "story"
         },
         {
             "icon": "flint_and_steel",
             "name": "We Need to Go Deeper",
             "description": "Build, light and enter a Nether Portal",
-            "namespace": "story/enter_the_nether"
+            "namespace": "story/enter_the_nether",
+            "category": "story"
         },
         {
             "icon": "diamond_chestplate",
             "name": "Cover Me With Diamonds",
             "description": "Diamond armor saves lives",
-            "namespace": "story/shiny_gear"
+            "namespace": "story/shiny_gear",
+            "category": "story"
         },
         {
             "icon": "enchanted_book",
             "name": "Enchanter",
             "description": "Enchant an item at an Enchantment Table",
-            "namespace": "story/enchant_item"
+            "namespace": "story/enchant_item",
+            "category": "story"
         },
         {
             "icon": "golden_apple",
             "name": "Zombie Doctor",
             "description": "Weaken and then cure a Zombie Villager",
-            "namespace": "story/cure_zombie_villager"
+            "namespace": "story/cure_zombie_villager",
+            "category": "story",
+            "type": "oval"
         },
         {
             "icon": "fire_charge",
             "name": "Return to Sender",
             "description": "Destroy a Ghast with a fireball",
-            "namespace": "nether/return_to_sender"
+            "namespace": "nether/return_to_sender",
+            "category": "nether",
+            "type": "fancy"
         },
         {
             "icon": "polished_blackstone_bricks",
             "name": "Those Were The Days",
             "description": "Enter a Bastion Remnant",
-            "namespace": "nether/find_bastion"
+            "namespace": "nether/find_bastion",
+            "category": "nether"
         },
         {
             "icon": "nether_bricks",
             "name": "A Terrible Fortress",
             "description": "Break your way into a Nether Fortress",
-            "namespace": "nether/find_fortress"
+            "namespace": "nether/find_fortress",
+            "category": "nether"
         },
         {
             "icon": "crying_obsidian",
             "name": "Who is Cutting Onions?",
             "description": "Obtain Crying Obsidian",
-            "namespace": "nether/obtain_crying_obsidian"
+            "namespace": "nether/obtain_crying_obsidian",
+            "category": "nether"
         },
         {
             "icon": "gold_ingot",
             "name": "Oh Shiny",
             "description": "Distract Piglins with gold",
-            "namespace": "nether/distract_piglin"
+            "namespace": "nether/distract_piglin",
+            "category": "nether"
         },
         {
             "icon": "warped_fungus_on_a_stick",
             "name": "This Boat Has Legs",
             "description": "Ride a Strider with a Warped Fungus on a Stick",
-            "namespace": "nether/ride_strider"
+            "namespace": "nether/ride_strider",
+            "category": "nether"
         },
         {
             "icon": "chest",
             "name": "War Pigs",
             "description": "Loot a chest in a Bastion Remnant",
-            "namespace": "nether/loot_bastion"
+            "namespace": "nether/loot_bastion",
+            "category": "nether"
         },
         {
             "icon": "lodestone",
             "name": "Country Lode, Take Me Home",
             "description": "Use a compass on a Lodestone",
-            "namespace": "nether/use_lodestone"
+            "namespace": "nether/use_lodestone",
+            "category": "nether"
         },
         {
             "icon": "bone",
             "name": "Spooky Scary Skeleton",
             "description": "Obtain a Wither Skeleton's skull",
-            "namespace": "nether/get_wither_skull"
+            "namespace": "nether/get_wither_skull",
+            "category": "nether"
         },
         {
             "icon": "blaze_rod",
             "name": "Into Fire",
             "description": "Relieve a Blaze of its rod",
-            "namespace": "nether/obtain_blaze_rod"
+            "namespace": "nether/obtain_blaze_rod",
+            "category": "nether"
         },
         {
             "icon": "potion",
             "name": "Local Brewery",
             "description": "Brew a potion",
-            "namespace": "nether/brew_potion"
+            "namespace": "nether/brew_potion",
+            "category": "nether"
         },
         {
             "icon": "spyglass",
             "name": "Is It a Bird?",
             "description": "Look at a parrot through a spyglass",
-            "namespace": "adventure/spyglass_at_parrot"
+            "namespace": "adventure/spyglass_at_parrot",
+            "category": "adventure"
         },
         {
             "icon": "iron_sword",
             "name": "Monster Hunter",
             "description": "Kill any hostile monster",
-            "namespace": "adventure/kill_a_mob"
+            "namespace": "adventure/kill_a_mob",
+            "category": "adventure"
         },
         {
             "icon": "emerald",
             "name": "What a Deal!",
             "description": "Successfully trade with a villager",
-            "namespace": "adventure/trade"
+            "namespace": "adventure/trade",
+            "category": "adventure"
         },
         {
             "icon": "honey_block",
             "name": "Sticky Situation",
             "description": "Jump into a Honey Block to break your fall",
-            "namespace": "adventure/honey_block_slide"
+            "namespace": "adventure/honey_block_slide",
+            "category": "adventure"
         },
         {
             "icon": "crossbow_standby",
             "name": "Ol' Betsy",
             "description": "Shoot a crossbow",
-            "namespace": "adventure/ol_betsy"
+            "namespace": "adventure/ol_betsy",
+            "category": "adventure"
         },
         {
             "icon": "red_bed",
             "name": "Sweet Dreams",
             "description": "Sleep in a bed to change your respawn point",
-            "namespace": "adventure/sleep_in_bed"
+            "namespace": "adventure/sleep_in_bed",
+            "category": "adventure"
+        },
+        {
+            "icon": "spyglass",
+            "name": "Is It a Balloon?",
+            "description": "Look at a ghast through a spyglass",
+            "namespace": "adventure/spyglass_at_ghast",
+            "category": "adventure"
         },
         {
             "icon": "trident",
             "name": "A Throwaway Joke",
             "description": "Throw a trident at something. Note: Throwing away your only weapon is not a good idea.",
-            "namespace": "adventure/throw_trident"
+            "namespace": "adventure/throw_trident",
+            "category": "adventure"
         },
         {
             "icon": "bow",
             "name": "Take Aim",
             "description": "Shoot something with an arrow",
-            "namespace": "adventure/shoot_arrow"
+            "namespace": "adventure/shoot_arrow",
+            "category": "adventure"
         },
         {
             "icon": "totem_of_undying",
             "name": "Postmortal",
             "description": "Use a Totem of Undying to cheat death",
-            "namespace": "adventure/totem_of_undying"
+            "namespace": "adventure/totem_of_undying",
+            "category": "adventure"
         },
         {
             "icon": "carved_pumpkin",
-            "icon_type": "block",
             "name": "Hired Help",
             "description": "Summon an Iron Golem to help defend a village",
-            "namespace": "adventure/summon_iron_golem"
+            "namespace": "adventure/summon_iron_golem",
+            "category": "adventure"
         },
         {
             "icon": "crossbow_standby",
             "name": "Who's the Pillager Now?",
             "description": "Give a Pillager a taste of their own medicine",
-            "namespace": "adventure/whos_the_pillager_now"
+            "namespace": "adventure/whos_the_pillager_now",
+            "category": "adventure"
         },
         {
             "icon": "leather_boots",
             "name": "Light as a Rabbit",
             "description": "Walk on powder snow...without sinking in it",
-            "namespace": "adventure/walk_on_powder_snow_with_leather_boots"
+            "namespace": "adventure/walk_on_powder_snow_with_leather_boots",
+            "category": "adventure"
         },
         {
             "icon": "honey_bottle",
             "name": "Bee Our Guest",
             "description": "Use a Campfire to collect Honey from a Beehive using a Bottle without aggravating the bees",
-            "namespace": "husbandry/safely_harvest_honey"
+            "namespace": "husbandry/safely_harvest_honey",
+            "category": "husbandry"
+        },
+        {
+            "icon": "wheat",
+            "name": "The Parrots and the Bats",
+            "description": "Breed two animals together",
+            "namespace": "husbandry/breed_an_animal",
+            "category": "husbandry"
         },
         {
             "icon": "oak_boat",
             "name": "Whatever Floats Your Goat!",
             "description": "Get in a Boat and float with a Goat",
-            "namespace": "husbandry/ride_a_boat_with_a_goat"
+            "namespace": "husbandry/ride_a_boat_with_a_goat",
+            "category": "husbandry"
+        },
+        {
+            "icon": "lead",
+            "name": "Best Friends Forever",
+            "description": "Tame an animal",
+            "namespace": "husbandry/tame_an_animal",
+            "category": "husbandry"
         },
         {
             "icon": "glow_ink_sac",
             "name": "Glow and Behold!",
             "description": "Make the text of a sign glow",
-            "namespace": "husbandry/make_a_sign_glow"
+            "namespace": "husbandry/make_a_sign_glow",
+            "category": "husbandry"
         },
         {
             "icon": "fishing_rod",
             "name": "Fishy Business",
             "description": "Catch a fish",
-            "namespace": "husbandry/fishy_business"
+            "namespace": "husbandry/fishy_business",
+            "category": "husbandry"
         },
         {
             "icon": "wheat",
@@ -230,16 +295,24 @@
             "namespace": "husbandry/wax_on"
         },
         {
-            "icon": "lead",
-            "name": "Best Friends Forever",
-            "description": "Tame an animal",
-            "namespace": "husbandry/tame_an_animal"
+            "icon": "pufferfish_bucket",
+            "name": "Tactical Fishing",
+            "description": "Catch a fish... without a fishing rod!",
+            "namespace": "husbandry/tactical_fishing",
+            "category": "husbandry"
+        },
+        {
+            "icon": "stone_axe",
+            "name": "Wax Off",
+            "description": "Scrape Wax off a Copper block!",
+            "namespace": "husbandry/wax_off"
         },
         {
             "icon": "axolotl_bucket",
             "name": "The Cutest Predator",
             "description": "Catch an axolotl in a bucket",
-            "namespace": "husbandry/axolotl_in_a_bucket"
+            "namespace": "husbandry/axolotl_in_a_bucket",
+            "category": "husbandry"
         }
     ]
 }
