@@ -1,8 +1,8 @@
 ## ACHIEVEMENT HUNT
 
-pretty much ready
+A random achievement is selected, first person to claim the achievement takes the point prize.
 
-view achievement list [here](https://plex1on.github.io/Achievement-Hunt)
+more information available (soon) @ [l.plexion.dev/achievementhunt](https://l.plexion.dev/achievementhunt) / [achievement list](https://plex1on.github.io/Achievement-Hunt)
 
 ---
 
