@@ -160,3 +160,9 @@ execute if entity @e[tag=ah_option,tag=ah_picked,limit=1,tag=147] run scoreboard
 execute if entity @e[tag=ah_option,tag=ah_picked,limit=1,tag=148] run scoreboard players set achievement internal 148
 execute if entity @e[tag=ah_option,tag=ah_picked,limit=1,tag=149] run scoreboard players set achievement internal 149
 execute if entity @e[tag=ah_option,tag=ah_picked,limit=1,tag=150] run scoreboard players set achievement internal 150
+
+# last achievement check
+# set last achievement if it does not match (good)
+execute unless score last_achievement internal = achievement internal run scoreboard players operation last_achievement internal = achievement internal
+# run again if matches last achievement
+execute if score last_achievement internal = achievement internal run function achunt:pick/random
