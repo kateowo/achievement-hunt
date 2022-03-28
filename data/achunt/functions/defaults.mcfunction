@@ -9,6 +9,9 @@ scoreboard players set grace_period global 300
 ## 0 = classic
 scoreboard players set mode global 0
 
+# last achievement check
+scoreboard players set last_achievement internal -1
+
 # extras
 scoreboard players set cut_clean global 1
 scoreboard players set speed_uhc global 1
