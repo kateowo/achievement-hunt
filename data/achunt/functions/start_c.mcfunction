@@ -20,7 +20,7 @@ scoreboard players set @a score 0
 effect give @a resistance 9999 255 true
 
 # world
-worldborder set 5000 5
+worldborder set 7500 5
 gamemode survival @a[gamemode=!spectator]
 
 # set period
