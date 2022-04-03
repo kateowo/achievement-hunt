@@ -1,6 +1,8 @@
 # AH create stands for rng
 
 
+kill @e[tag=ah_option]
+
 ## generate.html
 ## typing this by hand would be awful:
 
