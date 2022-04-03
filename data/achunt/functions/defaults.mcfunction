@@ -35,11 +35,11 @@ scoreboard players set period internal -1
 
 ## CLASSIC MODE
 # picking
-scoreboard players set interval global 810
+scoreboard players set interval global 280
 # score
 scoreboard players set score_increase global 10
 # win conditions (score)
-scoreboard players set win_score global 350
+scoreboard players set win_score global 100
 
 
 scoreboard players set defaults internal 1
