@@ -64,14 +64,6 @@
             "category": "story"
         },
         {
-            "icon": "golden_apple",
-            "name": "Zombie Doctor",
-            "description": "Weaken and then cure a Zombie Villager",
-            "namespace": "story/cure_zombie_villager",
-            "category": "story",
-            "type": "oval"
-        },
-        {
             "icon": "fire_charge",
             "name": "Return to Sender",
             "description": "Destroy a Ghast with a fireball",
@@ -105,34 +97,6 @@
             "name": "Oh Shiny",
             "description": "Distract Piglins with gold",
             "namespace": "nether/distract_piglin",
-            "category": "nether"
-        },
-        {
-            "icon": "warped_fungus_on_a_stick",
-            "name": "This Boat Has Legs",
-            "description": "Ride a Strider with a Warped Fungus on a Stick",
-            "namespace": "nether/ride_strider",
-            "category": "nether"
-        },
-        {
-            "icon": "chest",
-            "name": "War Pigs",
-            "description": "Loot a chest in a Bastion Remnant",
-            "namespace": "nether/loot_bastion",
-            "category": "nether"
-        },
-        {
-            "icon": "lodestone",
-            "name": "Country Lode, Take Me Home",
-            "description": "Use a compass on a Lodestone",
-            "namespace": "nether/use_lodestone",
-            "category": "nether"
-        },
-        {
-            "icon": "bone",
-            "name": "Spooky Scary Skeleton",
-            "description": "Obtain a Wither Skeleton's skull",
-            "namespace": "nether/get_wither_skull",
             "category": "nether"
         },
         {
@@ -171,13 +135,6 @@
             "category": "adventure"
         },
         {
-            "icon": "honey_block",
-            "name": "Sticky Situation",
-            "description": "Jump into a Honey Block to break your fall",
-            "namespace": "adventure/honey_block_slide",
-            "category": "adventure"
-        },
-        {
             "icon": "crossbow_standby",
             "name": "Ol' Betsy",
             "description": "Shoot a crossbow",
@@ -189,13 +146,6 @@
             "name": "Sweet Dreams",
             "description": "Sleep in a bed to change your respawn point",
             "namespace": "adventure/sleep_in_bed",
-            "category": "adventure"
-        },
-        {
-            "icon": "spyglass",
-            "name": "Is It a Balloon?",
-            "description": "Look at a ghast through a spyglass",
-            "namespace": "adventure/spyglass_at_ghast",
             "category": "adventure"
         },
         {
@@ -224,13 +174,6 @@
             "name": "Hired Help",
             "description": "Summon an Iron Golem to help defend a village",
             "namespace": "adventure/summon_iron_golem",
-            "category": "adventure"
-        },
-        {
-            "icon": "crossbow_standby",
-            "name": "Who's the Pillager Now?",
-            "description": "Give a Pillager a taste of their own medicine",
-            "namespace": "adventure/whos_the_pillager_now",
             "category": "adventure"
         },
         {
@@ -289,23 +232,11 @@
             "namespace": "husbandry/plant_seed"
         },
         {
-            "icon": "honeycomb",
-            "name": "Wax On",
-            "description": "Apply Honeycomb to a Copper block!",
-            "namespace": "husbandry/wax_on"
-        },
-        {
             "icon": "pufferfish_bucket",
             "name": "Tactical Fishing",
             "description": "Catch a fish... without a fishing rod!",
             "namespace": "husbandry/tactical_fishing",
             "category": "husbandry"
-        },
-        {
-            "icon": "stone_axe",
-            "name": "Wax Off",
-            "description": "Scrape Wax off a Copper block!",
-            "namespace": "husbandry/wax_off"
         },
         {
             "icon": "axolotl_bucket",
