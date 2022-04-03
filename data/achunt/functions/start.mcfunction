@@ -1,4 +1,4 @@
-# DS start
+# AH start
 
 
 scoreboard players set can_start internal 0
@@ -13,4 +13,4 @@ execute if score alive internal matches 2.. run scoreboard players set can_start
 
 # run
 execute unless score can_start internal matches 1.. run tellraw @s ["",{"text":"[","color":"dark_gray"},{"text":"X","color":"red"},{"text":"] ","color":"dark_gray"},{"text":"Cannot start, atleast 2 people required for DeathSwap.","color":"green"}]
-execute if score can_start internal matches 1.. run function ds:start_c
+execute if score can_start internal matches 1.. run function achunt:start_c
