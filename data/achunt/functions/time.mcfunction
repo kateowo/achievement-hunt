@@ -21,5 +21,5 @@ execute if score period internal matches 0 if score time_s internal >= grace_per
 
 # interval between achievements
 # if no user claims achievement in timeframe
-execute if score mode global matches 0 if score period internal matches 1 if score time_s internal = interval global if score time internal matches 0 run function achunt:pick/none
+execute if score mode global matches 0 if score period internal matches 1 if score time_s internal >= interval global if score time internal matches 0 run function achunt:pick/none
 # will only run once (checks if time(in ticks) = 0)
