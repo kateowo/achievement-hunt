@@ -3,6 +3,7 @@
 
 # general timings
 scoreboard players set grace_period global 300
+scoreboard players set skip_grace global 0
 
 # mode
 ## deprecated, but still required
