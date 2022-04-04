@@ -22,7 +22,7 @@ execute as @e[type=item,name="Iron Ore"] at @s run summon item ~ ~ ~ {Item:{id:"
 execute as @e[type=item,name="Iron Ore"] at @s run particle minecraft:smoke ~ ~ ~ 0 0 0 0.01 30
 execute as @e[type=item,name="Iron Ore"] at @s run kill @s
 ## gold
-execute as @e[type=item,name="Gold Ore"] at @s run summon item ~ ~ ~ {Item:{id:"gold_ingot",Count:1b},Motion:[0.0,0.05,0.0],PickupDelay:12s}
+execute as @e[type=item,name="Gold Ore"] at @s run summon item ~ ~ ~ {Item:{id:"gold_ingot",Count:2b},Motion:[0.0,0.05,0.0],PickupDelay:12s}
 execute as @e[type=item,name="Gold Ore"] at @s run particle minecraft:smoke ~ ~ ~ 0 0 0 0.01 30
 execute as @e[type=item,name="Gold Ore"] at @s run kill @s
 
