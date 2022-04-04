@@ -5,8 +5,7 @@
 scoreboard players set grace_period global 300
 
 # mode
-## 1 = elimination (default)
-## 0 = classic
+## deprecated, but still required
 scoreboard players set mode global 0
 
 # last achievement check
