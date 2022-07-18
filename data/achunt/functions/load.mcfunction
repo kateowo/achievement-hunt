@@ -13,6 +13,10 @@ scoreboard objectives setdisplay sidebar score
 # world
 forceload add 0 0
 
+# vote skip
+## /trigger skip
+scoreboard objectives add skip trigger
+
 # bossbar
 bossbar add achunt:main ""
 bossbar set achunt:main color green
