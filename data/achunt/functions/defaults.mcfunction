@@ -2,6 +2,7 @@
 
 
 # general timings
+scoreboard players set period internal -1
 scoreboard players set grace_period global 300
 scoreboard players set skip_grace global 0
 
@@ -23,14 +24,12 @@ gamerule keepInventory false
 effect clear @a
 gamemode adventure @a[gamemode=!spectator]
 
+# vote skip
+scoreboard players set vote_skip global 1
+scoreboard players set nag_vote_skip global 1
+
 # create stands for rng
 function achunt:create
-
-# grace period
-scoreboard players set grace_period global 300
-
-# period
-scoreboard players set period internal -1
 
 
 ## CLASSIC MODE
