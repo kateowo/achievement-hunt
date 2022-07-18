@@ -1,6 +1,6 @@
 {
     "values": [
         "fm:prepare",
-        "achunt:prepare" 
+        "achunt:load" 
     ] 
 }
