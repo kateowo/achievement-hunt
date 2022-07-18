@@ -5,9 +5,9 @@
 # calc amount required
 ## total / 2
 function fm:players/count
-scoreboard players operation vote.required internal = players internal
-scoreboard players operation vote.required internal /= vote_divide internal
+scoreboard players operation skip.required internal = players internal
+scoreboard players operation skip.required internal /= vote_divide internal
 
 # if over required total
 ## skipping achievement
-function achunt:skip/go
+execute if score skip.voted internal >= skip.required internal if score vote_skip global matches 1.. run function achunt:skip/go

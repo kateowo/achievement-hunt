@@ -7,4 +7,5 @@ tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"✔","color":"green"},{
 # sfx
 execute as @a at @s run playsound block.note_block.pling player @s ~ ~ ~
 
+scoreboard players add skip.voted internal 1
 scoreboard players reset @s skip
