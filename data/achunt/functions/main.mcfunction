@@ -26,5 +26,9 @@ execute unless score period internal matches 1 run scoreboard players reset @a d
 execute if score period internal matches 1 as @a at @s if score @s score >= win_score global run tag @s add win
 execute if score period internal matches 1 as @a at @s if score @s score >= win_score global run function achunt:win
 
+# vote skip
+## /trigger skip
+execute as @a at @s if score @s skip matches 1.. run function achunt:skip/vote
+
 # period checks
 function achunt:last_login
