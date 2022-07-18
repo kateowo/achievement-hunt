@@ -2,6 +2,7 @@
 
 
 # general timings
+scoreboard players set period internal -1
 scoreboard players set grace_period global 300
 scoreboard players set skip_grace global 0
 
@@ -25,12 +26,6 @@ gamemode adventure @a[gamemode=!spectator]
 
 # create stands for rng
 function achunt:create
-
-# grace period
-scoreboard players set grace_period global 300
-
-# period
-scoreboard players set period internal -1
 
 
 ## CLASSIC MODE
