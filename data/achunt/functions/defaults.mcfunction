@@ -24,6 +24,9 @@ gamerule keepInventory false
 effect clear @a
 gamemode adventure @a[gamemode=!spectator]
 
+# vote skip
+scoreboard players set nag_vote_skip global 1
+
 # create stands for rng
 function achunt:create
 

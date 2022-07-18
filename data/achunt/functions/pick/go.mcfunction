@@ -52,6 +52,8 @@ execute if score achievement internal matches 33 run tellraw @a ["",{"text":"[",
 execute if score achievement internal matches 34 run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"⭐","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"The Cutest Predator ","color":"green"},{"text":"Catch an axolotl in a bucket","color":"gray"}]
 
 
+execute if score nag_vote_skip global matches 1.. run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green"},{"text":"] ","color":"dark_gray"},{"text":"To vote skip the achievement, run /trigger skip","color":"yellow"}]
+
 # reset timer
 scoreboard players set time internal 0
 scoreboard players set time_s internal 0
