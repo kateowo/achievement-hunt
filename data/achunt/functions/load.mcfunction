@@ -16,6 +16,7 @@ forceload add 0 0
 # vote skip
 ## /trigger skip
 scoreboard objectives add skip trigger
+scoreboard players set vote_divide internal 2
 
 # bossbar
 bossbar add achunt:main ""
