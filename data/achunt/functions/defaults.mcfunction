@@ -34,7 +34,7 @@ function achunt:create
 
 ## CLASSIC MODE
 # picking
-scoreboard players set interval global 280
+scoreboard players set interval global 240
 # score
 scoreboard players set score_increase global 10
 # win conditions (score)
