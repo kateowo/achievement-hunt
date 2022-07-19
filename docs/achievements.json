@@ -107,13 +107,6 @@
             "category": "nether"
         },
         {
-            "icon": "potion",
-            "name": "Local Brewery",
-            "description": "Brew a potion",
-            "namespace": "nether/brew_potion",
-            "category": "nether"
-        },
-        {
             "icon": "spyglass",
             "name": "Is It a Bird?",
             "description": "Look at a parrot through a spyglass",
@@ -177,13 +170,6 @@
             "category": "adventure"
         },
         {
-            "icon": "leather_boots",
-            "name": "Light as a Rabbit",
-            "description": "Walk on powder snow...without sinking in it",
-            "namespace": "adventure/walk_on_powder_snow_with_leather_boots",
-            "category": "adventure"
-        },
-        {
             "icon": "honey_bottle",
             "name": "Bee Our Guest",
             "description": "Use a Campfire to collect Honey from a Beehive using a Bottle without aggravating the bees",
@@ -195,13 +181,6 @@
             "name": "The Parrots and the Bats",
             "description": "Breed two animals together",
             "namespace": "husbandry/breed_an_animal",
-            "category": "husbandry"
-        },
-        {
-            "icon": "oak_boat",
-            "name": "Whatever Floats Your Goat!",
-            "description": "Get in a Boat and float with a Goat",
-            "namespace": "husbandry/ride_a_boat_with_a_goat",
             "category": "husbandry"
         },
         {
