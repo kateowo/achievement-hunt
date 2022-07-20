@@ -1,7 +1,7 @@
 # AH time intervals
 
 
-function fm:clock
+execute if score period internal matches 0..1 run function fm:clock
 
 # bossbar
 # [-1] pre-game
