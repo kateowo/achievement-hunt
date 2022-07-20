@@ -19,8 +19,5 @@ scoreboard players set vote_divide internal 2
 bossbar add achunt:main ""
 bossbar set achunt:main color green
 
-# death
-scoreboard objectives add death deathCount
-
 # defaults
 execute unless score defaults internal matches 1.. run function achunt:defaults
