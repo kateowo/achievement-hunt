@@ -7,9 +7,6 @@ bossbar set achunt:main players @a
 # time loop
 function achunt:time
 
-# elimination
-#execute if score mode global matches 1 run function achunt:pick/elimination
-
 # achievement checks
 execute if score period internal matches 1 run function achunt:pick/checks
 
