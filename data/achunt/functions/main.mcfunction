@@ -24,6 +24,7 @@ execute as @a unless score @s score matches 0.. run scoreboard players set @s sc
 
 # vote skip
 ## /trigger skip
+scoreboard players enable @a skip
 execute if score period internal matches 1 if score vote_skip global matches 1.. run function achunt:skip/main
 execute if score period internal matches 1 as @a at @s if score @s skip matches 1.. if score vote_skip global matches 1.. run function achunt:skip/vote
 execute if score period internal matches 1 as @a at @s if score @s skip matches 1.. unless score vote_skip global matches 1.. run function achunt:skip/vote_off
