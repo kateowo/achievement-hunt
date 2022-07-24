@@ -23,6 +23,8 @@ gamerule doImmediateRespawn true
 gamerule keepInventory false
 effect clear @a
 gamemode adventure @a[gamemode=!spectator]
+## forceload to ensure achievements are always loaded
+forceload add 0 0
 
 # vote skip
 scoreboard players set vote_skip global 1
