@@ -26,6 +26,11 @@ gamemode adventure @a[gamemode=!spectator]
 ## forceload to ensure achievements are always loaded
 forceload add 0 0
 
+# show scoreboard
+scoreboard players set show_scoreboard global 1
+# show score on actionbar
+scoreboard players set show_score_actionbar global 1
+
 # vote skip
 scoreboard players set vote_skip global 1
 scoreboard players set nag_vote_skip global 1
