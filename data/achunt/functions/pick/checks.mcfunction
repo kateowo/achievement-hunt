@@ -1,5 +1,5 @@
-# AH achievement checks
-# check if user has earned achivement
+# ACHUNT achievement checks
+## check if user has earned achivement
 
 
 ## generate.html

@@ -1,4 +1,4 @@
-# AH time intervals
+# ACHUNT time intervals
 
 
 execute if score period internal matches 0..1 run function fm:clock

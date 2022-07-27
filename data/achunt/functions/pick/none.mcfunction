@@ -1,5 +1,5 @@
-# AH pick none
-# if no user claims achievement
+# ACHUNT pick none
+## if no user claims achievement
 
 
 # announce

@@ -1,4 +1,4 @@
-# AH bossbar for achievement
+# ACHUNT bossbar for achievement
 # displays achievement name + description in bossbar
 
 

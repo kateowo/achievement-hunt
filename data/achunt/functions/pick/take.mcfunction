@@ -1,6 +1,6 @@
-# AC achievement take
-# when a user earns the current achievement
-# ran as user
+# ACHUNT achievement take
+## when a user claims the current achievement
+## ran as user
 
 
 # announce
