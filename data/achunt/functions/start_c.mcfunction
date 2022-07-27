@@ -7,7 +7,7 @@ tag @a remove win
 
 # announce
 title @a title ["",{"text":"ACHIEVEMENT ","color":"green","bold":true},{"text":"HUNT","color":"yellow","bold":true}]
-execute unless score skip_grace global matches 1.. run title @a subtitle "You have a 5 minute grace period to gather resources."
+execute unless score skip_grace global matches 1.. run title @a subtitle "You have a grace period to gather resources."
 execute unless score skip_grace global matches 1.. run tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"!","color":"green","bold":true},{"text":"] ","color":"dark_gray"},{"text":"You are now in the grace period. After 5 minutes, the games will begin.","color":"yellow"}]
 ## if skipping grace
 execute if score skip_grace global matches 1.. run title @a subtitle "Achievements are marked in the chat and the bossbar."
